@@ -16,11 +16,11 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { ConfigService } from 'src/app/services/config.service';
-import { SharedMapService } from 'src/app/services/shared-map.service';
-import { TokenService } from 'src/app/services/token.service';
+import { ConfigService } from '../../services/config.service';
+import { SharedMapService } from '../../services/shared-map.service';
+import { TokenService } from '../../services/token.service';
 import { HttpClient } from '@angular/common/http';
-import { LabelVisibilityChange } from 'src/app/dto/label.visibility.change';
+import { LabelVisibilityChange } from '../../dto/label.visibility.change';
 import esriId from '@arcgis/core/identity/IdentityManager';
 
 import WebMap from '@arcgis/core/WebMap';
@@ -87,13 +87,13 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   @Input() region: string | undefined;
   @Input() effect: string | undefined;
   @Input() ecoregion: string | undefined;
-  @Input() layerNameToValidate: POMCALayerName | PORHLayerName;
-  @Input() projectName: ProjectName;
-  @Input() idSolicitud: string;
-  @Input() idTipoActividad: string;
-  @Input() fechaInicialActividad: string;
-  @Input() fechaFinalActividad: string;
-  @Input() tokenKeycloak: string;
+  @Input() layerNameToValidate: POMCALayerName | PORHLayerName = '' as any;
+  @Input() projectName: ProjectName = '' as any;
+  @Input() idSolicitud: string = '';
+  @Input() idTipoActividad: string = '';
+  @Input() fechaInicialActividad: string = '';
+  @Input() fechaFinalActividad: string = '';
+  @Input() tokenKeycloak: string = '';
   @Input() resultadoTraslape?: (datos?: object | undefined) => object | undefined;
   @Output() onValidationCompleted: EventEmitter<string[]> = new EventEmitter();
   @Output() onValidationProgress: EventEmitter<{ validationsCompleted: number, totalValidations: number }> = new EventEmitter();
@@ -365,11 +365,11 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   private initializeConfig() {
-    this.configSubscription = this.configService.config$.subscribe((config) => {
+    this.configSubscription = this.configService.config$.subscribe((config: any) => {
       console.log('config', config);
 
       if (config) {
-        this.loadConfig(config);
+        this.handleConfigData(config);
       } else {
         console.error('Config data is not loaded yet');
       }
@@ -377,7 +377,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   loadConfig(): void {
-    this.configService.config$.subscribe((config) => {
+    this.configService.config$.subscribe((config: any) => {
       if (config) {
         console.log('handleConfig');
 
@@ -489,7 +489,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   /** Metodo para resaltar la feature de la tabla en la capa y viceversa */
-  addHighlight(feature, highlightHandles) {
+  addHighlight(feature: any, highlightHandles: any) {
     if (this.sharedMapService.featureTable.layerView && feature) {
       highlightHandles.add(this.sharedMapService.featureTable.layerView.highlight(feature), feature.getObjectId());
     }
@@ -504,7 +504,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
     this.sharedMapService.featureTable.watch("layer", () => highlightHandles?.removeAll());
 
     // Resalta al pasar el mouse por encima de una fila
-    this.sharedMapService.featureTable.on("cell-pointerover", ({ feature }) =>
+    this.sharedMapService.featureTable.on("cell-pointerover", ({ feature }: any) =>
       this.addHighlight(feature, highlightHandles)
     );
 
@@ -516,7 +516,8 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
       this.view.on("immediate-click", async (evt) => {
         const { results } = await this.view.hitTest(evt);
 
-        results.forEach(({ graphic }) => {
+        results.forEach((result: any) => {
+          const graphic = result.graphic;
           // Ignorar gráficos que no pertenezcan a la capa principal
           if (graphic?.layer !== this.sharedMapService.featureTable.layer) return;
 
@@ -533,13 +534,15 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
 
       // Resalta entidades al mover el mouse sobre el mapa
       // Usa debounce para evitar consultas innecesarias
-      const highlightOnViewHover = promiseUtils.debounce(async (event) => {
+      const highlightOnViewHover = promiseUtils.debounce(async (event: any) => {
         const { results } = await this.view.hitTest(event);
 
         // Solo dejamos las entidades que pertenecen a nuestra capa
         const candidates = results.filter(
-          ({ graphic }) =>
-            graphic && graphic.layer && graphic.layer === this.sharedMapService.featureTable.layer
+          (result: any) => {
+            const graphic = result.graphic;
+            return graphic && graphic.layer && graphic.layer === this.sharedMapService.featureTable.layer;
+          }
         );
 
         // Limpia los resaltados actuales (en tabla y vista)
@@ -549,7 +552,8 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
         }
 
         // Resalta las nuevas entidades encontradas
-        candidates.forEach(({ graphic }) => {
+        candidates.forEach((result: any) => {
+          const graphic = result.graphic;
           this.sharedMapService.featureTable.rowHighlightIds.add(graphic.getObjectId());
           this.addHighlight(graphic, highlightHandles);
         });
@@ -566,7 +570,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
     this.loadView();
     this.loadBaseMap();
 
-    const actionBar = document.querySelector('calcite-action-bar');
+    const actionBar = document.querySelector('calcite-action-bar') as any;
     if (actionBar) {
       actionBar.messageOverrides = {
         expand: 'Expandir',
@@ -577,16 +581,16 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
       let tableContainerEl = document.getElementById(
         'tableContainer'
       ) as HTMLElement;
-      actionBar.addEventListener('calciteActionBarToggle', (evt) => {
+      actionBar.addEventListener('calciteActionBarToggle', (evt: any) => {
         if (actionBar.expanded) {
-          avatarEl.classList.remove(['calcite-logo-ppal']);
-          avatarEl.classList.add(['calcite-logo-expanded']);
+          avatarEl.classList.remove('calcite-logo-ppal');
+          avatarEl.classList.add('calcite-logo-expanded');
 
           tableContainerEl.style.marginLeft = '12.5rem';
           tableContainerEl.style.width = '88%';
         } else {
-          avatarEl.classList.add(['calcite-logo-ppal']);
-          avatarEl.classList.remove(['calcite-logo-expanded']);
+          avatarEl.classList.add('calcite-logo-ppal');
+          avatarEl.classList.remove('calcite-logo-expanded');
 
           tableContainerEl.style.marginLeft = '5.5rem';
           tableContainerEl.style.width = '95%';
@@ -596,11 +600,11 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
 
     const layerPromises = this.map.layers.map((layer) => layer.load());
     Promise.all(layerPromises).then(() => {
-      const calciteLoader = document.querySelector('calcite-loader');
+      const calciteLoader = document.querySelector('calcite-loader') as any;
       if (calciteLoader) {
         calciteLoader.hidden = true;
       }
-      const calciteShell = document.querySelector('calcite-shell');
+      const calciteShell = document.querySelector('calcite-shell') as any;
       if (calciteShell) {
         calciteShell.hidden = false;
       }
@@ -698,7 +702,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
 
   getLayerByTitle(title: string) {
     return this.sharedMapService.view.map.allLayers.items.filter(
-      (layer) => layer.title === title
+      (layer: any) => layer.title === title
     )[0];
   }
 
@@ -750,7 +754,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
             token: this.tokenService.token,
           });
 
-          this.sharedMapService.attributes$.subscribe((attributes) => {
+          this.sharedMapService.attributes$.subscribe((attributes: any) => {
 
             const userRol = attributes['rol'] || '';
 
@@ -815,9 +819,8 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
                     title,
                     url,
                     visible,
-                    definitionExpression,
                     listMode,
-                  });
+                  } as any);
                 } else if (url.toUpperCase().includes('/WMS')) {
                   layer = new WMSLayer({
                     id,
@@ -877,7 +880,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
                   }
 
                   if (layer instanceof MapImageLayer) {
-                    layer.loadAll().then((data) => {
+                    layer.loadAll().then((data: any) => {
                       const processSublayers = (sublayers: any[]) => {
                         for (const sublayer of sublayers) {
                           const customSublayer = this.filterSublayerById(sublayer.layer.id, sublayer.id);
@@ -892,7 +895,9 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
                         }
                       };
 
-                      processSublayers(data.sublayers);
+                      if (data.sublayers && data.sublayers.length > 0) {
+                        processSublayers(data.sublayers.items || data.sublayers.toArray());
+                      }
                       this.filterByCode(layer);
                     });
                   } else if (layer instanceof FeatureLayer) {
@@ -944,7 +949,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
           this.mapReady = true;
           console.log('Mapa listo en CmpGeovisorComponent', this.tokenService.token, " --- ");
           // Aquí puedes realizar otras acciones que dependan de que el mapa esté listo
-        }).catch(error => {
+        }).catch((error: any) => {
           console.error('Error al esperar que la vista del mapa esté lista:', error);
           this.mapReady = false;
         });
@@ -979,7 +984,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
 
   private addToGroupLayer(layer: any, groupTitle: string): void {
     const existingGroupLayer = this.sharedMapService.view?.map.allLayers.find(
-      (l) => l instanceof GroupLayer && l.title === groupTitle
+      (l: any) => l instanceof GroupLayer && l.title === groupTitle
     ) as GroupLayer;
     if (existingGroupLayer) {
       existingGroupLayer.layers.add(layer);
@@ -1206,7 +1211,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
         if (results.features.length > 0) {
           const firstFeature = results.features[0];
 
-          const fillSymbol = {
+          const fillSymbol: any = {
             type: 'simple-line',
             color: [255, 0, 0], // red color
             width: 2,

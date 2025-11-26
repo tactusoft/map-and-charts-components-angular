@@ -43,9 +43,9 @@
           <edit-conservar-paga *ngSwitchCase="'edit-conservar-paga'"></edit-conservar-paga>
           <cmp-extact-data-component *ngSwitchCase="'cmp-extact-data-component'"></cmp-extact-data-component>
           <sirh-validator-component *ngSwitchCase="'sirh-validator-component'" [projectName]="projectName"
-            [layerNameToValidate]="layerNameToValidate" (onValidationFinished)=onValidationFinished($event)
-            (onValidationProgress)=onProgressOfValidation($event) (onFileSelected)=onFileLoaded($event)
-            (onNotification)=onNewNotification($event)></sirh-validator-component>
+            [layerNameToValidate]="layerNameToValidate" (onValidationFinished)="onValidationFinished($event)"
+            (onValidationProgress)="onProgressOfValidation($event)" (onFileSelected)="onFileLoaded($event)"
+            (onNotification)="onNewNotification($event)"></sirh-validator-component>
           <ng-container *ngSwitchCase="'cmp-traslape-component'">
             <cmp-traslape-component *ngIf="tokenService.token && mapReady" [idSolicitud]="idSolicitud"
               [idTipoActividad]="idTipoActividad" [fechaInicialActividad]="fechaInicialActividad"
