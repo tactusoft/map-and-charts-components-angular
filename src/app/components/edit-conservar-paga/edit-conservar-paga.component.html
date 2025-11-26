@@ -1,0 +1,163 @@
+<calcite-block open>
+  <calcite-label>
+    ID del Predio:
+    <calcite-input-text placeholder="ID" clearable="true" (calciteInputTextInput)="onChangeKeyFormControl($event)">
+      <calcite-button slot="action" icon-start="search" (click)="buscarPredio()"></calcite-button>
+    </calcite-input-text>
+  </calcite-label>
+
+  <calcite-block [open]="openEditEditBlock">
+    <calcite-label>
+      Tipo de tenencia *
+
+      <calcite-select [disabled]="disabledFields" [value]="attributes['tipo_tenen']" name="tipo_tenen"
+        label="Selecciona tipo de tenencia" (calciteSelectChange)="onSelectChange($event)">
+        <calcite-option label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let domain of domains['tipo_tenen']" [value]="parseString(domain.code)"
+          [label]="domain.name"></calcite-option>
+      </calcite-select>
+
+
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Documento de propiedad *
+      <calcite-select [disabled]="disabledFields" name="doc_propi" label="Seleccione el Documento de propiedad"
+        (calciteSelectChange)="onSelectChange($event)" [value]="attributes['doc_propi']">
+        <calcite-option label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let domain of domains['doc_propi']" [value]="parseString(domain.code)"
+          [label]="domain.name"></calcite-option>
+
+      </calcite-select>
+
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Matricula inmobiliaria
+      <calcite-input-text [disabled]="disabledFields" name="matri_inm" placeholder="Matricula inmobiliaria"
+        clearable="true" [value]="attributes['matri_inm']"
+        (calciteInputTextInput)="onChangeAttributesControl($event)"></calcite-input-text>
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Numero de documento de tenencia
+      <calcite-input-text [disabled]="disabledFields" name="no_doc_ten" placeholder="Numero de documento de tenencia"
+        clearable="true" [value]="attributes['no_doc_ten']"
+        (calciteInputTextInput)="onChangeAttributesControl($event)"></calcite-input-text>
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Nombre del predio *
+      <calcite-input-text [disabled]="disabledFields" name="nom_pred" placeholder="Nombre del predio" clearable="true"
+        [value]="attributes['nom_pred']"
+        (calciteInputTextInput)="onChangeAttributesControl($event)"></calcite-input-text>
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Validación topológica *
+
+      <calcite-select [disabled]="disabledFields" name="validacion" placeholder="Seleccione la validacion"
+        (calciteSelectChange)="onSelectChange($event)" [value]="attributes['validacion']">
+        <calcite-option label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let domain of domains['validacion']" [value]="parseString(domain.code)"
+          [label]="domain.name"></calcite-option>
+
+      </calcite-select>
+
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Observación IDEAM
+      <calcite-input-text [disabled]="disabledFields" name="obsv_dina" placeholder="Observación IDEAM" clearable="true"
+        [value]="attributes['obsv_dina']"
+        (calciteInputTextInput)="onChangeAttributesControl($event)"></calcite-input-text>
+    </calcite-label>
+    <br />
+    <calcite-label>
+      Observador dinamizador
+      <calcite-input-text [disabled]="disabledFields" name="obsv_ideam" placeholder="Observador dinamizador"
+        clearable="true" [value]="attributes['obsv_ideam']"
+        (calciteInputTextInput)="onChangeAttributesControl($event)"></calcite-input-text>
+    </calcite-label>
+
+    <calcite-block open>
+      <div style="
+          display: flex;
+          column-gap: 1px;
+          width: 100%;
+          justify-content: start;
+        ">
+        <calcite-button style="margin-right: 1em" appearance="outline-fill"
+          (click)="this.openEnabledConfirmDialog = true">Editar</calcite-button>
+
+
+        <calcite-button (click)="validateSiguiente()" [disabled]="this.disabledFields">Siguiente</calcite-button>
+      </div>
+    </calcite-block>
+  </calcite-block>
+
+  <calcite-block [open]="openExtraDataBlock">
+    <br />
+
+    <calcite-label>
+      Descripcion del cambio:
+
+      <calcite-text-area label="Cambios" placeholder="Descripcion del cambio"
+        (calciteTextAreaInput)="onChangeKeyCambios($event)"></calcite-text-area>
+    </calcite-label>
+
+    <br />
+    <calcite-label>
+      Archivo de soporte del cambio
+
+      <input type="file" id="fileInputSoporte" style="display: none" accept=".pdf"
+        (change)="onFileSelectedSoporte($event)" />
+      <calcite-button appearance="solid" color="blue" (click)="triggerFileInputSoporte()" [loading]="" [disabled]=""
+        icon-end="upload">{{ fileUploadSoporte?.name ?? "Cargar Archivo" }}</calcite-button>
+      <calcite-notice open kind="info" scale="s">
+        <div slot="message">
+          Cargue un archivo con extensión .pdf con el correo soporte de
+          solicitud de cambio del valor del atributo
+        </div>
+      </calcite-notice>
+    </calcite-label>
+
+    <calcite-label>
+      <calcite-button (click)="openEditConfirmDialog=true;">Guardar cambios</calcite-button>
+    </calcite-label>
+  </calcite-block>
+
+  <!-- Dialogs -->
+
+  <calcite-dialog [open]="openEditConfirmDialog" modal width="s" heading="Confirmar Edicion" id="example-dialog"
+    close-button-disabled docked escape-disabled kind="info" outside-close-disabled scale="s" width-scale="s"
+    max-width="18rem">
+    <div>
+      <calcite-label> Desea guardar los cambios realizados? </calcite-label>
+    </div>
+
+    <calcite-button [disabled]="loading" slot="footer-end" width="full" appearance="outline"
+      (click)="openEditConfirmDialog = false">
+      Cancelar
+    </calcite-button>
+    <calcite-button [disabled]="loading" slot="footer-end" width="full" (click)="guardarCambios()">
+      Guardar
+    </calcite-button>
+  </calcite-dialog>
+  <calcite-dialog [open]="openEnabledConfirmDialog" modal width="s" heading="Confirmar Edicion" id="example-dialog"
+    close-button-disabled docked escape-disabled kind="info" outside-close-disabled scale="s" width-scale="s"
+    max-width="18rem">
+    <div>
+      <calcite-label>
+        Desea habilitar los campos para su edición?
+      </calcite-label>
+    </div>
+
+    <calcite-button slot="footer-end" width="full" appearance="outline" (click)="openEnabledConfirmDialog = false">
+      Cancelar
+    </calcite-button>
+    <calcite-button slot="footer-end" width="full" (click)="habilitarCambios()">
+      Habilitar
+    </calcite-button>
+  </calcite-dialog>
+</calcite-block>

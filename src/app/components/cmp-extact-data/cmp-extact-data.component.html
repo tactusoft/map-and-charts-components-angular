@@ -1,0 +1,9 @@
+<calcite-block open>
+  <calcite-label>
+    Acá podrá descargar la informacion de esta ID de cargue. {{idCargue}}
+  </calcite-label>
+</calcite-block>
+<calcite-block open>
+  <calcite-button [disabled]="!!loading" [loading]="loading" [innerText]="loadingStatus || 'Descargar'"
+    (click)="downloadSHP()">Descargar</calcite-button>
+</calcite-block>

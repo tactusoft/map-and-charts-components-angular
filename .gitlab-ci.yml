@@ -1,0 +1,214 @@
+stages:
+  - dependencies
+  - build
+  - publish
+
+install_dependencies_develop:
+  image: node:18.19-bullseye
+  stage: dependencies
+  environment: test
+  tags:
+    - docker-instance-test-01
+  script:
+    - npm pkg set devDependencies.@types/node=18.19.50
+    - npm i --package-lock-only
+    - npm ci
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  only:
+    refs:
+      - develop
+
+build_image_develop:
+  image: node:18.18-bullseye
+  environment: test
+  tags:
+    - docker-instance-test-01
+  stage: build
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  script:
+    - test -f package-lock.json || npm i --package-lock-only
+    - test -d node_modules || npm ci
+    - npx @angular/cli@18.2.12 build --configuration=test --output-hashing none
+    - node build-component.js dev
+    - ls -l
+    - cd webComponents/
+    - ls -l
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR/webComponents/
+  only:
+    refs:
+      - develop
+
+publish_develop:
+  stage: publish
+  environment: test
+  tags:
+    - shell-instance-test-01
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - ls -l
+    - rm -rf cdn/
+    - git clone --depth 1 --branch=develop https://prod-gitlab-codecommit-at-927523490136:g8Xl4Y6HQImFjF%2FueJxIA5OdtSjtsJagIRXUagBK8YA=@git-codecommit.us-east-1.amazonaws.com/v1/repos/cdn/
+    - if ! [ -d cdn/geo-visor-cmp/ ]; then mkdir cdn/geo-visor-cmp/; fi
+    - if ! [ -d cdn/geo-visor-cmp/v1/ ]; then mkdir cdn/geo-visor-cmp/v1/; fi
+    - cp -r webComponents/* cdn/geo-visor-cmp/v1/
+    - cd cdn
+    - git pull
+    - git add .
+    - git commit -m "Actualizando componente de geo-visor-cmp" > /dev/null || true
+    - git push
+  only:
+    refs:
+      - develop
+
+install_dependencies_test:
+  image: node:18.18-bullseye
+  stage: dependencies
+  environment: test
+  tags:
+    - docker-instance-test-01
+  script:
+    - npm pkg set devDependencies.@types/node=18.19.39
+    - npm i --package-lock-only
+    - npm ci
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  only:
+    refs:
+      - test
+
+build_image_test:
+  image: node:18.18-bullseye
+  environment: test
+  tags:
+    - docker-instance-test-01
+  stage: build
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  script:
+    - test -f package-lock.json || npm i --package-lock-only
+    - test -d node_modules || npm ci
+    - npx @angular/cli@18.2.12 build --configuration=test --output-hashing none
+    - node build-component.js test
+    - ls -l
+    - cd webComponents/
+    - ls -l
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR/webComponents/
+  only:
+    refs:
+      - test
+
+publish_test:
+  stage: publish
+  environment: test
+  tags:
+    - shell-instance-test-01
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - ls -l
+    - rm -rf cdn/
+    - git clone --depth 1 --branch=test https://prod-gitlab-codecommit-at-927523490136:g8Xl4Y6HQImFjF%2FueJxIA5OdtSjtsJagIRXUagBK8YA=@git-codecommit.us-east-1.amazonaws.com/v1/repos/cdn/
+    - if ! [ -d cdn/geo-visor-cmp/ ]; then mkdir cdn/geo-visor-cmp/; fi
+    - if ! [ -d cdn/geo-visor-cmp/v1/ ]; then mkdir cdn/geo-visor-cmp/v1/; fi
+    - cp -r webComponents/* cdn/geo-visor-cmp/v1/
+    - cd cdn
+    - git pull
+    - git add .
+    - git commit -m "Actualizando componente de geo-visor-cmp" > /dev/null || true
+    - git push
+  only:
+    refs:
+      - test
+
+install_dependencies_main:
+  image: node:18.18-bullseye
+  stage: dependencies
+  environment: main
+  tags:
+    - docker-instance-test-01
+  script:
+    - npm pkg set devDependencies.@types/node=18.19.39
+    - npm i --package-lock-only
+    - npm ci
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  only:
+    refs:
+      - main
+
+build_image_main:
+  image: node:18.18-bullseye
+  environment: main
+  tags:
+    - docker-instance-test-01
+  stage: build
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  script:
+    - test -f package-lock.json || npm i --package-lock-only
+    - test -d node_modules || npm ci
+    - npx @angular/cli@18.2.12 build --configuration=production --output-hashing none
+    - node build-component.js prod
+    - ls -l
+    - cd webComponents/
+    - ls -l
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR/webComponents/
+  only:
+    refs:
+      - main
+
+publish_main:
+  stage: publish
+  environment: main
+  tags:
+    - shell-instance-test-01
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - ls -l
+    - rm -rf cdn/
+    - git clone --depth 1 --branch=master https://prod-gitlab-codecommit-at-927523490136:g8Xl4Y6HQImFjF%2FueJxIA5OdtSjtsJagIRXUagBK8YA=@git-codecommit.us-east-1.amazonaws.com/v1/repos/cdn/
+    - if ! [ -d cdn/geo-visor-cmp/ ]; then mkdir cdn/geo-visor-cmp/; fi
+    - if ! [ -d cdn/geo-visor-cmp/v1/ ]; then mkdir cdn/geo-visor-cmp/v1/; fi
+    - mv webComponents/* cdn/geo-visor-cmp/v1/
+    - cd cdn
+    - git pull
+    - git add .
+    - git commit -m "Actualizando componente de geo-visor-cmp" > /dev/null || true
+    - git push
+  only:
+    refs:
+      - main

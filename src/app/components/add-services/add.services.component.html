@@ -1,0 +1,58 @@
+<calcite-tabs>
+  <calcite-tab-nav slot="title-group">
+    <calcite-tab-title selected>
+      Servicios
+    </calcite-tab-title>
+    <calcite-tab-title>Archivos</calcite-tab-title>
+  </calcite-tab-nav>
+  <calcite-tab selected>
+    <calcite-block open>
+      <calcite-label>
+        Seleccione un tipo de servicio:
+        <calcite-select label="Seleccione un tipo de servicio:" id="control-service_type"
+          (calciteSelectChange)="onChangeServiceType($event)">
+          <calcite-option label="-- Seleccione --"></calcite-option>
+          <calcite-option *ngFor="let serviceType of serviceTypes" [value]="serviceType.value"
+            [label]="serviceType.label"></calcite-option>
+        </calcite-select>
+      </calcite-label>
+      <calcite-label>
+        Dirección URL:
+        <calcite-input-text placeholder="Digite la URL" clearable="true"
+          (calciteInputTextInput)="onChangeUrlFormControl($event)"></calcite-input-text>
+      </calcite-label>
+    </calcite-block>
+    <calcite-block open>
+      <calcite-button (click)="onAddServiceClick()">Agregar</calcite-button>
+    </calcite-block>
+  </calcite-tab>
+  <calcite-tab>
+    <calcite-block open>
+      <calcite-label>
+        SHAPEFILE: Cargue un archivo de extensión zip debe contener los
+        ficheros .shp, .shx, .dbf y .prj, el sistema de referencia debe ser
+        WGS84 (EPSG 4326).</calcite-label>
+      <br />
+      <calcite-label>
+        CSV: Un archivo con extensión .csv, es obligatorio que el archivo
+        contenga los campos LONGITUD y LATITUD, delimitados por comas, puntos o
+        tabuladores.</calcite-label>
+      <br />
+      <calcite-label>
+        GEOJSON: Un archivo con extensión .geo.json o .geojson.</calcite-label>
+      <br />
+      <calcite-label>
+        KML: Un archivo con extensión .kml.</calcite-label>
+      <br />
+      <calcite-label>
+        GDB: Cargue un archivo de extensión zip debe contener un directorio con extension gdb</calcite-label>
+    </calcite-block>
+    <calcite-block open>
+      <label class="file-upload">
+        <span><strong>{{ buttonText }}</strong></span>
+        <input type="file" name="file" id="inFile" (change)="onFileSelected($event)"
+          accept=".zip,.csv,.geojson,.geo.json,.kml" [disabled]="loading" />
+      </label>
+    </calcite-block>
+  </calcite-tab>
+</calcite-tabs>

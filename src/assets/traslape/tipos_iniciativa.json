@@ -1,0 +1,30 @@
+[
+    {
+        "id": 12,
+        "nombre": "NAMA - Acciones Nacionalmente Apropiadas de Mitigación"
+    },
+    {
+        "id": 13,
+        "nombre": "PDBC - Proyectos de Desarrollo Bajo en Carbono"
+    },
+    {
+        "id": 14,
+        "nombre": "MDL - Proyectos del Mecanismo de Desarrollo Limpio"
+    },
+    {
+        "id": 15,
+        "nombre": "MDL PoA - Programas de Actividades del Mecanismo de Desarrollo Limpio"
+    },
+    {
+        "id": 119,
+        "nombre": "PDBC - Programas de Desarrollo Bajo en Carbono"
+    },
+    {
+        "id": 121,
+        "nombre": "Proyecto REDD+"
+    },
+    {
+        "id": 122,
+        "nombre": "Programa REDD+"
+    }
+]

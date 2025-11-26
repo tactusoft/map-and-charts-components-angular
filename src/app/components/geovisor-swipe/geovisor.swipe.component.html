@@ -1,0 +1,24 @@
+<calcite-block open>
+  <calcite-label>
+    Capa 1 (Izquierda):
+    <calcite-select label="Seleccione una Capa:" id="control-layer1" (calciteSelectChange)="onChangeLayer1($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let lyr of layers1" [value]="lyr.value" [label]="lyr.label"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label>
+    Capa 2 (Derecha):
+    <calcite-select label="Seleccione un Atributo:" id="control-layer2" (calciteSelectChange)="onChangeLayer2($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let lyr of layers2" [value]="lyr.value" [label]="lyr.label"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+</calcite-block>
+
+<calcite-block open>
+  <div class="button-container">
+    <calcite-button (click)="onActivateClick()" [loading]="loading"
+      [disabled]="!this.period1 || !this.period2">Comparar</calcite-button>
+    <calcite-button (click)="onClearClick()" [loading]="loading" kind="neutral">Limpiar</calcite-button>
+  </div>
+</calcite-block>

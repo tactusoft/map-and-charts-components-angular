@@ -1,0 +1,42 @@
+{
+  "POMCA": {
+    "all": [
+      "spatialReference",
+      "areaOverlap",
+      "emptySpaces",
+      "attributesNames",
+      "attributesEmpty",
+      "minimumArea",
+      "attributesValues"
+    ]
+  },
+  "PORH": {
+    "monitoringNetwork": [
+      "spatialReference",
+      "pointOverlap",
+      "attributesNames",
+      "attributesEmpty"
+    ],
+    "uniformAreas": [
+      "spatialReference",
+      "areaOverlap",
+      "emptySpaces",
+      "attributesNames",
+      "attributesEmpty"
+    ],
+    "sections": [
+      "spatialReference",
+      "lineOverlap",
+      "lineIntersections",
+      "attributesNames",
+      "attributesEmpty"
+    ],
+    "WTP": ["pointOverlap", "attributesNames", "attributesEmpty"],
+    "transfers": ["pointOverlap", "attributesNames", "attributesEmpty"],
+    "otherInfrastructure": [
+      "pointOverlap",
+      "attributesNames",
+      "attributesEmpty"
+    ]
+  }
+}

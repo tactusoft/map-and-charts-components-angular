@@ -1,0 +1,98 @@
+<calcite-tabs layout="center">
+  
+
+  <calcite-tab selected>
+
+    <calcite-block open>
+      <calcite-label>
+        <p>
+          <span style="font-weight: bold;">
+            SHAPEFILE : </span> Cargue un archivo de extensión zip debe contener los
+          ficheros .shp, .shx, .dbf y .prj.
+          <br>
+          <br>
+          <span style="font-weight: bold;">KML : </span> Cargue un archivo de extensión .kml.
+          <br>
+          <br>
+          <span style="font-weight: bold;">GeoJSON : </span> Cargue un archivo de extensión .Geojson.
+          <br>
+          <br>
+          El archivo debe tener un tamaño máximo de <span style="font-weight: bold;">10 mb</span> y el sistema de referencia debe ser <span style="font-weight: bold;">(GCS_MAGNA, EPSG: 4686)</span> para cualquier formato.
+          <br>
+        </p>
+      </calcite-label>
+      <br />
+    </calcite-block>
+
+    <calcite-block open>
+      <input type="file" id="fileInput" style="display: none;" (change)="onFileSelected($event)" accept=".zip,.kml,.geojson" />
+      <div class="button-container" style="display: flex;flex-direction: column">
+        <calcite-button appearance="solid" color="blue" (click)="triggerFileInput()" [loading]="loading"
+          [disabled]="disabledLoadButton" icon-end="upload">Cargar
+          Archivo</calcite-button>
+        <calcite-button slot="primary" width="full" (click)="openAdvertenciaTraslape=true" [loading]="loadingTraslape"
+        [disabled]="disabledTraslapeButton" icon-end="check-layer">
+          Calcular traslape
+        </calcite-button>
+        <calcite-button kind="inverse" color="blue" (click)="openRenareConfirmation = true"
+          [disabled]="disabledSaveButton" icon-end="save">Guardar Archivo</calcite-button>
+      </div>
+    </calcite-block>
+
+    <!-- Modal de Confirmación (Reemplazado por Dialog) -->
+
+    <calcite-dialog aria-labelledby="modal-title" id="confirmation-modal" heading="Confirmación" drag-enabled
+      close-button-disabled docked escape-disabled kind="info" [open]="openRenareConfirmation" outside-close-disabled
+      scale="s" width-scale="s" max-width="18rem">
+      <calcite-block open>
+        <calcite-label>
+          Desea guardar las geometrías cargadas al mapa?
+        </calcite-label>
+      </calcite-block>
+
+      <calcite-button slot="footer-start" width="full" appearance="outline" (click)="openRenareConfirmation = false">
+        Cancelar
+      </calcite-button>
+      <calcite-button slot="footer-end" width="full" (click)="onSaveClick()">
+        Guardar
+      </calcite-button>
+    </calcite-dialog>
+
+  <!-- Modal de Confirmación (Reemplazado por Dialog) -->
+  
+  <calcite-dialog aria-labelledby="modal-title" id="confirmation-modal" heading="Confirmación" drag-enabled
+  close-button-disabled docked escape-disabled kind="info" [open]="openRenareConfirmation" outside-close-disabled
+  scale="s" width-scale="s" max-width="18rem">
+  <calcite-block open>
+    <calcite-label>
+      Desea guardar las geometrías cargadas al mapa?
+    </calcite-label>
+  </calcite-block>
+
+  <calcite-button slot="footer-start" width="full" appearance="outline" (click)="openRenareConfirmation = false">
+    Cancelar
+  </calcite-button>
+  <calcite-button slot="footer-end" width="full" (click)="onSaveClick()">
+    Guardar
+  </calcite-button>
+</calcite-dialog>
+
+  <calcite-dialog aria-labelledby="modal-title" id="confirmation-modal" heading="ADVERTENCIA" drag-enabled
+  close-button-disabled docked escape-disabled kind="info" [open]="openAdvertenciaTraslape" outside-close-disabled (calciteDialogClose)="openAdvertenciaTraslape = false" 
+  scale="s" width-scale="s" max-width="18rem">
+    <calcite-block open>
+          <div class="content">
+        <calcite-label style="display: flex; justify-content: flex-end; gap: 0.5rem;">
+          Tenga en cuenta que el resultado oficial para la identificación de traslapes está sujeto a la revisión de los equipos temáticos e informáticos del Ministerio de Ambiente y Desarrollo Sostenible y la notificación oficial del traslape será enviada a través del correo electrónico registrado en RENARE.
+        </calcite-label>
+      </div>
+    </calcite-block>
+    <calcite-button slot="footer-end"  (click)="onIntersectClick()">
+      Aceptar
+    </calcite-button>
+</calcite-dialog>
+  
+
+    
+  </calcite-tab>
+</calcite-tabs>

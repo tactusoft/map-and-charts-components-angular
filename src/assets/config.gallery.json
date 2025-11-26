@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gallery_1",
+    "title": "Territorios Priorizados",
+    "tags": ["territorios", "ambiente"],
+    "service": {
+      "type": "FeatureServer",
+      "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Territorios_Priorizados_Minambiente_Integrado/FeatureServer/0"
+    },
+    "description": "Territorios Priorizados por el gobierno."
+  },
+  {
+    "id": "gallery_2",
+    "title": "Estado POMCAS",
+    "tags": ["pomcas"],
+    "service": {
+      "type": "FeatureServer",
+      "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/arcgis/rest/services/Planes_de_Ordenación_y_Manejo_de_Cuencas___POMCA_WFL1/FeatureServer/10"
+    },
+    "description": "Es el instrumento de planificación, a través del cual se realiza la planeación del uso coordinado del suelo, de las aguas, de la flora y la fauna y el manejo de la cuenca"
+  },
+  {
+    "id": "gallery_3",
+    "title": "Cicatrices de Quema",
+    "tags": ["quema", "sinchi", "cicatrices"],
+    "service": {
+      "type": "FeatureServer",
+      "url": "https://gis.siatac.co/arcgis/rest/services/MAC_DatosAbiertos/Ciq_Region_100K/FeatureServer/0"
+    },
+    "description": "Una cicatriz de quema es la huella que deja un incendio o quema presentada sobre una porción de territorio.",
+    "source": "https://siatac.co/cicatrices-de-quema/"
+  },
+  {
+    "id": "gallery_4",
+    "title": "Puntos de Calor",
+    "tags": ["puntos", "sinchi", "calor"],
+    "service": {
+      "type": "FeatureServer",
+      "url": "https://gis.siatac.co/arcgis/rest/services/MAC_DatosAbiertos/Puntos_Region_100K/MapServer/0"
+    },
+    "description": "Estos puntos de calor son en realidad aproximaciones a incendios o puntos potenciales de fuego (Di Bella, y otros, 2008)",
+    "source": "https://siatac.co/puntos-de-calor/"
+  }
+]

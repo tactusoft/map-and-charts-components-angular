@@ -1,0 +1,4 @@
+#layers-container {
+  height: 100%; /* Ajusta al 50% del contenedor padre */
+  overflow-y: auto; /* Habilita el scroll vertical si el contenido excede el contenedor */
+}

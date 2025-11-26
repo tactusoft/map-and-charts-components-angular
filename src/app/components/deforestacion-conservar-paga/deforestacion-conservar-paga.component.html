@@ -1,0 +1,147 @@
+<calcite-tabs layout="center">
+
+
+  <calcite-tab-nav slot="title-group">
+    <calcite-tab-title selected>
+      Cargar
+    </calcite-tab-title>
+    <calcite-tab-title>Consultar</calcite-tab-title>
+  </calcite-tab-nav>
+
+  <!-- Cargue -->
+  <calcite-tab selected>
+
+    <calcite-block open>
+
+      <calcite-label>
+        Debe cargar el archivo con la actualización de la deforestación y el raster de soporte. Por favor seleccione mes
+        y año del monitoreo.
+      </calcite-label>
+
+      <br />
+
+      <calcite-label>
+        Mes y Año
+
+        <input aria-errormessage="inputValidationMessage" aria-invalid="false" aria-label="Mes y Año"
+          class="calcite-input" placeholder="Enter your region" type="month" [value]="mes"
+          (input)="onMesChange($event)" />
+
+      </calcite-label>
+      <br />
+
+      <calcite-label>
+        Archivo monitoreo
+
+        <input type="file" id="fileInputMonitoreo" style="display: none;" accept=".zip"
+          (change)="onFileSelectedMonitoreo($event)" />
+        <calcite-button appearance="solid" color="blue" (click)="triggerFileInputMonitoreo()" [loading]="loading"
+          [disabled]="loading" icon-end="upload">{{fileUploadMonitoreo?.name ?? 'Cargar Archivo'}}</calcite-button>
+
+      </calcite-label>
+      <br />
+
+      <calcite-label>
+        Raster soporte
+        <input type="file" id="fileInputRaster" style="display: none;" accept=".zip"
+          (change)="onFileSelectedRaster($event)" />
+        <calcite-button appearance="solid" color="blue" (click)="triggerFileInputRaster()" [loading]="loading"
+          [disabled]="loading" icon-end="upload" width="auto">{{fileUploadRaster?.name ?? 'Cargar
+          Archivo'}}</calcite-button>
+      </calcite-label>
+
+    </calcite-block>
+
+    <calcite-block open>
+      <calcite-button kind="inverse" (click)="guardar()" [disabled]="disabled">Guardar</calcite-button>
+
+    </calcite-block>
+
+  </calcite-tab>
+
+
+  <!-- Consulta -->
+  <calcite-tab>
+
+
+
+    <calcite-block open>
+      <calcite-label>
+        Consulta de predios
+      </calcite-label>
+      <br />
+      <calcite-label>
+        ID del Predio:
+        <calcite-input-text placeholder="ID" clearable="true" (calciteInputTextInput)="onChangeIdPredio($event)"
+          [value]="idPredio">
+        </calcite-input-text>
+
+        <!-- (calciteInputTextInput)="onChangeKeyFormControl($event)" -->
+        <calcite-label style="--calcite-color-text-1: #aeaeae; --calcite-font-size--1: 0.85em; gap: 0;">
+          <p style="margin: 0;">Ingrese el Id del Predio</p>
+        </calcite-label>
+
+      </calcite-label>
+    </calcite-block>
+    <calcite-block open>
+      <div class="button-container">
+
+        <calcite-button (click)="fetchPredio()" [loading]="loading" [disabled]="loading">
+          <!-- <calcite-button> -->
+          Buscar</calcite-button>
+        <calcite-button kind='neutral' (click)="clearSearch()" [loading]="loading" [disabled]="loading">
+          <!-- <calcite-button> -->
+          Limpiar</calcite-button>
+        <!-- (click)="onSearchClick()" -->
+      </div>
+    </calcite-block>
+
+    <calcite-block *ngIf="results.features && results.features.length > 0" open>
+      <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+        <calcite-label
+          style="text-align: center; font-size: 18px !important; display: flex; align-items: center; height: 48px;">
+          <span>Predio: <strong>{{results.features[0].attributes.id_predio}}</strong></span>
+        </calcite-label>
+
+        <calcite-action icon="view-mixed" text="Mostrar modal" style=" height: 48px;" (click)="showInfoModal()">
+        </calcite-action>
+
+      </div>
+    </calcite-block>
+
+  </calcite-tab>
+
+</calcite-tabs>
+
+<calcite-dialog [open]="showModal" (calciteDialogClose)="showModal=false;" modal heading="Valores de deforestación"
+  id="example-dialog" close-button-disabled docked escape-disabled kind="info" outside-close-disabled width="m"
+  scale="m" width-scale="m">
+  <calcite-tabs layout="center">
+    <calcite-tab-nav slot="title-group">
+      <calcite-tab-title selected>
+        Tabla de datos
+      </calcite-tab-title>
+      <calcite-tab-title>
+        Grafica de barras
+      </calcite-tab-title>
+    </calcite-tab-nav>
+
+    <!--Tabla  -->
+    <calcite-tab selected>
+      <div #featureTableNode id="tableContainer" style="height: 50vh;"></div>
+    </calcite-tab>
+
+
+    <!-- Grafica -->
+    <calcite-tab>
+      <div class="chart-wrapper">
+        <canvas #chartCanvas></canvas>
+      </div>
+    </calcite-tab>
+
+  </calcite-tabs>
+
+  <calcite-button slot="footer-end" appearance="outline" (click)="showModal=false;">
+    Cerrar
+  </calcite-button>
+</calcite-dialog>

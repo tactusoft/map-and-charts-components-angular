@@ -1,0 +1,17 @@
+<h2>Geovisor Page</h2>
+<div id="mapContainer">
+    <label for="topicSelector">Seleccione un tema:</label>
+    <select id="topicSelector" [(ngModel)]="selectedTopic" (change)="onTopicChange($event)">
+        <option value="BASE">Base</option>
+        <option value="CONSERVAR_PAGA">CONSERVAR_PAGA</option>
+        <option value="SIRH_VALIDATOR">SIRH_VALIDATOR</option>
+        <option value="REGISTRO_SOLICITUDES">REGISTRO_SOLICITUDES</option>
+        <option value="AMBIENTE">AMBIENTE</option>
+        <option value="PILOTO">PILOTO</option>
+    </select>
+    <app-cmp-geovisor [topic]="selectedTopic" id-cargue="c2f16fa3-52df-4f9f-b674-2911498bb73c" rol="IDEAM" token="..."></app-cmp-geovisor>
+
+
+    <!-- <app-cmp-geovisor [topic]="selectedTopic" id-cargue="5a9e5c53-beb8-4273-bc39-1474e8aa7d65"></app-cmp-geovisor> -->
+    <!-- <app-cmp-geovisor [topic]="selectedTopic"></app-cmp-geovisor> -->
+</div>

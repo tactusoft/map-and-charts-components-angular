@@ -1,0 +1,26 @@
+<calcite-block open>
+  <calcite-label>
+    SHAPEFILE: Cargue un archivo de extensión zip debe contener los ficheros
+    .shp, .shx, .dbf y .prj, el sistema de referencia debe ser Origen Nacional (EPSG 9377).</calcite-label
+  >
+</calcite-block>
+
+<calcite-block open>
+  <input
+    type="file"
+    accept=".zip"
+    id="fileInput"
+    (change)="onFileSelected($event)"
+    style="display: none;"
+  />
+  <div class="button-container">
+    <calcite-button
+      appearance="solid"
+      color="blue"
+      (click)="triggerFileInput()"
+      [loading]="loading"
+      icon-end="upload"
+      >Cargar Archivo</calcite-button
+    >
+  </div>
+</calcite-block>

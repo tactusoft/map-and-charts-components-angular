@@ -1,0 +1,5006 @@
+[
+  {
+    "id": 55,
+    "nombre": "Reducción de las emisiones debidas a la deforestación"
+  },
+  {
+    "id": 54,
+    "nombre": "Reducción de las emisiones debidas a la degradación forestal"
+  },
+  {
+    "id": 444,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 445,
+    "nombre": "Cambio de modelos productivos en cultivos - Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 446,
+    "nombre": "Cambio de modelos productivos en cultivos - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 447,
+    "nombre": "Cambios en modelos productivos pecuarios - Avicultura"
+  },
+  {
+    "id": 448,
+    "nombre": "Cambios en modelos productivos pecuarios - Búfalos"
+  },
+  {
+    "id": 449,
+    "nombre": "Cambios en modelos productivos pecuarios - Caballos"
+  },
+  {
+    "id": 450,
+    "nombre": "Cambios en modelos productivos pecuarios - Caprinos"
+  },
+  {
+    "id": 451,
+    "nombre": "Cambios en modelos productivos pecuarios - Ganado bovino"
+  },
+  {
+    "id": 452,
+    "nombre": "Cambios en modelos productivos pecuarios - Mulas y asnos"
+  },
+  {
+    "id": 453,
+    "nombre": "Cambios en modelos productivos pecuarios - Ovinos"
+  },
+  {
+    "id": 454,
+    "nombre": "Cambios en modelos productivos pecuarios - Porcinos < 6 meses"
+  },
+  {
+    "id": 455,
+    "nombre": "Cambios en modelos productivos pecuarios - Porcinos > 6 meses"
+  },
+  {
+    "id": 456,
+    "nombre": "Implementación o mejoramiento de sistemas con árboles para producción agropecuaria"
+  },
+  {
+    "id": 457,
+    "nombre": "Incremento de las reservas forestales de carbono"
+  },
+  {
+    "id": 458,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 459,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 460,
+    "nombre": "Manejo y disposición de residuos animales - Avicultura"
+  },
+  {
+    "id": 461,
+    "nombre": "Manejo y disposición de residuos animales - Búfalos"
+  },
+  {
+    "id": 462,
+    "nombre": "Manejo y disposición de residuos animales - Caballos"
+  },
+  {
+    "id": 463,
+    "nombre": "Manejo y disposición de residuos animales - Caprinos"
+  },
+  {
+    "id": 464,
+    "nombre": "Manejo y disposición de residuos animales - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 465,
+    "nombre": "Manejo y disposición de residuos animales - Ganado bovino"
+  },
+  {
+    "id": 466,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 467,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 468,
+    "nombre": "Manejo y disposición de residuos animales - Mulas y asnos"
+  },
+  {
+    "id": 469,
+    "nombre": "Manejo y disposición de residuos animales - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 470,
+    "nombre": "Manejo y disposición de residuos animales - Ovinos"
+  },
+  {
+    "id": 471,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos < 6 meses"
+  },
+  {
+    "id": 472,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos > 6 meses"
+  },
+  {
+    "id": 473,
+    "nombre": "Manejo y disposición de residuos animales - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 474,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Avicultura"
+  },
+  {
+    "id": 475,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Búfalos"
+  },
+  {
+    "id": 476,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Caballos"
+  },
+  {
+    "id": 477,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Caprinos"
+  },
+  {
+    "id": 478,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Cultivo de arroz Riego"
+  },
+  {
+    "id": 479,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Cultivo de arroz secano"
+  },
+  {
+    "id": 480,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 481,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 482,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Ganado bovino"
+  },
+  {
+    "id": 483,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Gestión de suelos histosoles (FOS)"
+  },
+  {
+    "id": 484,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 485,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 486,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 487,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 488,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Mulas y asnos"
+  },
+  {
+    "id": 489,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 490,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Ovinos"
+  },
+  {
+    "id": 491,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Porcinos < 6 meses"
+  },
+  {
+    "id": 492,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Porcinos > 6 meses"
+  },
+  {
+    "id": 493,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de pastizales"
+  },
+  {
+    "id": 494,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de tierras de cultivo"
+  },
+  {
+    "id": 495,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de tierras forestales"
+  },
+  {
+    "id": 496,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa en otras tierras"
+  },
+  {
+    "id": 497,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 498,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Uso de cal"
+  },
+  {
+    "id": 499,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 500,
+    "nombre": "Plantaciones comerciales"
+  },
+  {
+    "id": 501,
+    "nombre": "Actividades de saneamiento"
+  },
+  {
+    "id": 502,
+    "nombre": "Agricultura de precisión para el manejo de suelos (fertilización y agua lluvias)"
+  },
+  {
+    "id": 503,
+    "nombre": "AMTEC"
+  },
+  {
+    "id": 504,
+    "nombre": "Aprovechamiento de la energía relacionada con el manejo del estiércol y otros residuos"
+  },
+  {
+    "id": 505,
+    "nombre": "Aprovechamiento de metano (CBM - Gases Metano Asociados a Mantos de Carbón - Coal Bed Methane)"
+  },
+  {
+    "id": 506,
+    "nombre": "Aprovechamiento de metano (CMM - Coal Mine Methane - Gas explotado junto con la explotación del carbón)"
+  },
+  {
+    "id": 507,
+    "nombre": "Aprovechamiento de metano (VAM - Ventilation Air Methane - Metano capturado en el sistema de ventilación)"
+  },
+  {
+    "id": 508,
+    "nombre": "Aumento de áreas con prácticas sostenibles"
+  },
+  {
+    "id": 509,
+    "nombre": "Cambio de modelos productivos en cultivos"
+  },
+  {
+    "id": 53,
+    "nombre": "Conservación de las reservas forestales de carbono"
+  },
+  {
+    "id": 52,
+    "nombre": "Gestión sostenible de los bosques"
+  },
+  {
+    "id": 51,
+    "nombre": "Incremento de las reservas forestales de carbono"
+  },
+  {
+    "id": 50,
+    "nombre": "Incremento de las reservas forestales de carbono"
+  },
+  {
+    "id": 49,
+    "nombre": "Gestión sostenible de los bosques"
+  },
+  {
+    "id": 48,
+    "nombre": "Conservación de las reservas forestales de carbono"
+  },
+  {
+    "id": 47,
+    "nombre": "Reducción de las emisiones debidas a la degradación forestal"
+  },
+  {
+    "id": 46,
+    "nombre": "Reducción de las emisiones debidas a la deforestación"
+  },
+  {
+    "id": 510,
+    "nombre": "Cambio de patrones de la composición de las aguas residuales domésticas"
+  },
+  {
+    "id": 511,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales industriales"
+  },
+  {
+    "id": 512,
+    "nombre": "Cambio de patrones de comportamiento en la generación de residuos"
+  },
+  {
+    "id": 513,
+    "nombre": "Cambio de patrones de comportamiento en la generación de residuos sólidos"
+  },
+  {
+    "id": 514,
+    "nombre": "Cambios tecnológicos en el tratamiento biológico de residuos sólidos"
+  },
+  {
+    "id": 515,
+    "nombre": "Cambios tecnológicos en el tratamiento térmico de residuos"
+  },
+  {
+    "id": 516,
+    "nombre": "Cambios tecnológicos en la disposición de residuos sólidos"
+  },
+  {
+    "id": 517,
+    "nombre": "Cambios tecnológicos en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 518,
+    "nombre": "Cambios tecnológicos en tratamiento y eliminación de aguas residuales industriales"
+  },
+  {
+    "id": 519,
+    "nombre": "Captura y aprovechamiento de gas natural"
+  },
+  {
+    "id": 520,
+    "nombre": "Coprocesamiento"
+  },
+  {
+    "id": 521,
+    "nombre": "Eficiencia energética en actividades de pesca"
+  },
+  {
+    "id": 522,
+    "nombre": "Eficiencia energética en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 523,
+    "nombre": "Eficiencia energética en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 524,
+    "nombre": "Eficiencia energética en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 525,
+    "nombre": "Eficiencia energética en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 526,
+    "nombre": "Eficiencia energética en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 527,
+    "nombre": "Eficiencia energética en industrias de la Construcción"
+  },
+  {
+    "id": 528,
+    "nombre": "Eficiencia energética en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 529,
+    "nombre": "Eficiencia energética en industrias de metales no ferrosos"
+  },
+  {
+    "id": 530,
+    "nombre": "Eficiencia energética en industrias de minerales no metálicos"
+  },
+  {
+    "id": 531,
+    "nombre": "Eficiencia energética en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 532,
+    "nombre": "Eficiencia energética en industrias de productos químicos"
+  },
+  {
+    "id": 533,
+    "nombre": "Eficiencia energética en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 534,
+    "nombre": "Eficiencia energética en industrias de textiles y cueros"
+  },
+  {
+    "id": 535,
+    "nombre": "Eficiencia energética en industrias hierro y acero"
+  },
+  {
+    "id": 536,
+    "nombre": "Eficiencia energética en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 537,
+    "nombre": "Eficiencia energética en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 538,
+    "nombre": "Eficiencia energética en operaciones aéreas"
+  },
+  {
+    "id": 539,
+    "nombre": "Eficiencia energética en operaciones de minería de carbón"
+  },
+  {
+    "id": 540,
+    "nombre": "Eficiencia energética en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 541,
+    "nombre": "Eficiencia energética en otras actividades fluviales"
+  },
+  {
+    "id": 542,
+    "nombre": "Eficiencia energética en otras industrias"
+  },
+  {
+    "id": 543,
+    "nombre": "Eficiencia energética en producción de coque"
+  },
+  {
+    "id": 544,
+    "nombre": "Eficiencia energética en producción de electricidad y calor"
+  },
+  {
+    "id": 545,
+    "nombre": "Eficiencia energética en refinación de petróleo"
+  },
+  {
+    "id": 546,
+    "nombre": "Eficiencia energética en sector agropecuario"
+  },
+  {
+    "id": 547,
+    "nombre": "Eficiencia energética en sector comercial"
+  },
+  {
+    "id": 548,
+    "nombre": "Eficiencia energética en sector institucional"
+  },
+  {
+    "id": 549,
+    "nombre": "Eficiencia energética en sector residencial"
+  },
+  {
+    "id": 550,
+    "nombre": "Eficiencia energética en transporte férreo"
+  },
+  {
+    "id": 551,
+    "nombre": "Eficiencia energética en transporte marítimo y fluvial"
+  },
+  {
+    "id": 552,
+    "nombre": "Eficiencia energética en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 553,
+    "nombre": "Eficiencia energética en transporte terrestre de carga"
+  },
+  {
+    "id": 554,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 555,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 556,
+    "nombre": "Eficiencia energética en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 557,
+    "nombre": "Eficiencia energética en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 558,
+    "nombre": "Generación renovable / No convencional"
+  },
+  {
+    "id": 559,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Comercial"
+  },
+  {
+    "id": 560,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Industria manufacturera"
+  },
+  {
+    "id": 561,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Móvil"
+  },
+  {
+    "id": 562,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Residencial"
+  },
+  {
+    "id": 563,
+    "nombre": "Gestión adecuada de equipos eléctricos al final de su vida útil - Eliminación de equipos eléctricos"
+  },
+  {
+    "id": 564,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aceleradores"
+  },
+  {
+    "id": 565,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aplicaciones militares"
+  },
+  {
+    "id": 566,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Otros"
+  },
+  {
+    "id": 567,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 568,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 569,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 570,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 571,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 572,
+    "nombre": "Gestión de biogás en otros sitios gestionados de disposición de residuos"
+  },
+  {
+    "id": 573,
+    "nombre": "Gestión de biogás en plantas de tratamiento de aguas residuales domésticas"
+  },
+  {
+    "id": 574,
+    "nombre": "Gestión de biogás en plantas de tratamiento de aguas residuales industriales"
+  },
+  {
+    "id": 704,
+    "nombre": "Conservación de las reservas forestales de carbono"
+  },
+  {
+    "id": 575,
+    "nombre": "Gestión de biogás en rellenos sanitarios regionales"
+  },
+  {
+    "id": 576,
+    "nombre": "Gestión de biogás en sitios no categorizados de disposición de residuos"
+  },
+  {
+    "id": 577,
+    "nombre": "Gestión de biogás en sitios no gestionados de disposición de residuos sólidos"
+  },
+  {
+    "id": 578,
+    "nombre": "Gestión de biogás en sitios para el tratamiento biológico de desechos sólidos"
+  },
+  {
+    "id": 579,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre"
+  },
+  {
+    "id": 580,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 581,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 582,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 583,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 584,
+    "nombre": "Mejora de procesos en industria de los metales - Otros"
+  },
+  {
+    "id": 585,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 586,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 587,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 588,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros"
+  },
+  {
+    "id": 589,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 590,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 591,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 592,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 593,
+    "nombre": "Mejora de procesos en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 594,
+    "nombre": "Mejora de procesos en industria química - Etileno"
+  },
+  {
+    "id": 595,
+    "nombre": "Mejora de procesos en industria química - Negro de humo"
+  },
+  {
+    "id": 596,
+    "nombre": "Mejora de procesos en industria química - Otros"
+  },
+  {
+    "id": 597,
+    "nombre": "Mejora de procesos en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 598,
+    "nombre": "Mejora de procesos en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 599,
+    "nombre": "Mejora de procesos en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 600,
+    "nombre": "Mejora de procesos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 601,
+    "nombre": "Mejora de procesos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 602,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 603,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 604,
+    "nombre": "Mejora de procesos en otros procesos industriales"
+  },
+  {
+    "id": 605,
+    "nombre": "Mejora de procesos en refinación de petróleo"
+  },
+  {
+    "id": 606,
+    "nombre": "Mejoramiento de oferta alimentaria"
+  },
+  {
+    "id": 607,
+    "nombre": "Nuevas tecnologías en industria de los metales - Otros"
+  },
+  {
+    "id": 608,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 609,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 610,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 611,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros"
+  },
+  {
+    "id": 612,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 613,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 614,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 615,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 616,
+    "nombre": "Nuevas tecnologías en industria química - Etileno"
+  },
+  {
+    "id": 617,
+    "nombre": "Nuevas tecnologías en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 618,
+    "nombre": "Nuevas tecnologías en industria química - Negro de humo"
+  },
+  {
+    "id": 619,
+    "nombre": "Nuevas tecnologías en industria química - Otros"
+  },
+  {
+    "id": 620,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 621,
+    "nombre": "Nuevas tecnologías en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 622,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 623,
+    "nombre": "Nuevas tecnologías en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 624,
+    "nombre": "Nuevas tecnologías en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 625,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 626,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 627,
+    "nombre": "Nuevas tecnologías en operaciones aéreas"
+  },
+  {
+    "id": 628,
+    "nombre": "Nuevas tecnologías en otros procesos industriales"
+  },
+  {
+    "id": 629,
+    "nombre": "Nuevas tecnologías en sector agropecuario"
+  },
+  {
+    "id": 630,
+    "nombre": "Nuevas tecnologías en transporte terrestre"
+  },
+  {
+    "id": 631,
+    "nombre": "Nuevas tecnologías en transporte terrestre de carga"
+  },
+  {
+    "id": 632,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 633,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 634,
+    "nombre": "Nuevas tecnologías en transporte terrestre publico colectivo de pasajeros"
+  },
+  {
+    "id": 635,
+    "nombre": "Nuevas tecnologías en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 636,
+    "nombre": "Permacultura"
+  },
+  {
+    "id": 637,
+    "nombre": "Plan de cruzamiento de razas"
+  },
+  {
+    "id": 705,
+    "nombre": "Repoblamiento forestal"
+  },
+  {
+    "id": 638,
+    "nombre": "Producción Bovina tecnificada"
+  },
+  {
+    "id": 639,
+    "nombre": "Reciclaje de residuos sólidos (Diferente a la fracción orgánica)"
+  },
+  {
+    "id": 640,
+    "nombre": "Recorversión a ganadería sostenible"
+  },
+  {
+    "id": 641,
+    "nombre": "Renovación de pasturas introducidas degradadas establecidas"
+  },
+  {
+    "id": 642,
+    "nombre": "Renovación de praderas introducidas"
+  },
+  {
+    "id": 643,
+    "nombre": "Sistema de rotación de potreros"
+  },
+  {
+    "id": 644,
+    "nombre": "Sustitución de combustibles en operaciones de minería de carbón"
+  },
+  {
+    "id": 645,
+    "nombre": "Sustitución de combustibles en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 646,
+    "nombre": "Sustitución de energéticos en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 647,
+    "nombre": "Sustitución de energéticos en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 648,
+    "nombre": "Sustitución de energéticos en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 649,
+    "nombre": "Sustitución de energéticos en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 650,
+    "nombre": "Sustitución de energéticos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 651,
+    "nombre": "Sustitución de energéticos en industrias de la Construcción"
+  },
+  {
+    "id": 652,
+    "nombre": "Sustitución de energéticos en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 653,
+    "nombre": "Sustitución de energéticos en industrias de metales no ferrosos"
+  },
+  {
+    "id": 654,
+    "nombre": "Sustitución de energéticos en industrias de minerales no metálicos"
+  },
+  {
+    "id": 655,
+    "nombre": "Sustitución de energéticos en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 656,
+    "nombre": "Sustitución de energéticos en industrias de productos químicos"
+  },
+  {
+    "id": 657,
+    "nombre": "Sustitución de energéticos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 658,
+    "nombre": "Sustitución de energéticos en industrias de textiles y cueros"
+  },
+  {
+    "id": 659,
+    "nombre": "Sustitución de energéticos en industrias hierro y acero"
+  },
+  {
+    "id": 660,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 661,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 662,
+    "nombre": "Sustitución de energéticos en operaciones aéreas"
+  },
+  {
+    "id": 663,
+    "nombre": "Sustitución de energéticos en otras industrias"
+  },
+  {
+    "id": 664,
+    "nombre": "Sustitución de energéticos en producción de electricidad y calor"
+  },
+  {
+    "id": 665,
+    "nombre": "Sustitución de energéticos en refinación de petróleo"
+  },
+  {
+    "id": 666,
+    "nombre": "Sustitución de energéticos en sector agropecuario"
+  },
+  {
+    "id": 667,
+    "nombre": "Sustitución de energéticos en sector comercial"
+  },
+  {
+    "id": 668,
+    "nombre": "Sustitución de energéticos en sector institucional"
+  },
+  {
+    "id": 669,
+    "nombre": "Sustitución de energéticos en sector residencial"
+  },
+  {
+    "id": 670,
+    "nombre": "Sustitución de energéticos en transporte férreo"
+  },
+  {
+    "id": 671,
+    "nombre": "Sustitución de energéticos en transporte marítimo y fluvial"
+  },
+  {
+    "id": 672,
+    "nombre": "Sustitución de energéticos en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 673,
+    "nombre": "Sustitución de energéticos en transporte terrestre de carga"
+  },
+  {
+    "id": 674,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 675,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 676,
+    "nombre": "Sustitución de energéticos en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 677,
+    "nombre": "Sustitución de energéticos en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 678,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 679,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 680,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 681,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 682,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 683,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 684,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 685,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 686,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 687,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 688,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 689,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 690,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 691,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Aplicaciones médicas"
+  },
+  {
+    "id": 692,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Propulsor para productos presurizados y aerosoles"
+  },
+  {
+    "id": 693,
+    "nombre": "Sustitución de N2O en otras aplicaciones - Otros"
+  },
+  {
+    "id": 694,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 695,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 696,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 697,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 698,
+    "nombre": "Tratamiento biológico de residuos sólidos con gestión de biogás"
+  },
+  {
+    "id": 699,
+    "nombre": "Tratamiento biológico de residuos sólidos sin gestión de biogás"
+  },
+  {
+    "id": 700,
+    "nombre": "Tratamiento Mecánico-Biológico (TMB) de residuos sólidos"
+  },
+  {
+    "id": 701,
+    "nombre": "Tratamiento térmico de residuos sólidos"
+  },
+  {
+    "id": 702,
+    "nombre": "Uso de concentrados comerciales"
+  },
+  {
+    "id": 703,
+    "nombre": "Reducción de la degradación forestal"
+  },
+  {
+    "id": 706,
+    "nombre": "Reducción de las emisiones debidas a la deforestación"
+  },
+  {
+    "id": 707,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales domesticas"
+  },
+  {
+    "id": 709,
+    "nombre": "Repoblamiento forestal"
+  },
+  {
+    "id": 708,
+    "nombre": "Incremento de las reservas forestales de carbono"
+  },
+  {
+    "id": 710,
+    "nombre": "Implementación o mejoramiento de sistemas con árboles para producción agropecuaria"
+  },
+  {
+    "id": 711,
+    "nombre": "Implementación de sistemas con árboles para producción agropecuaria"
+  },
+  {
+    "id": 712,
+    "nombre": "Implementación o mejoramiento de sistemas con árboles para producción agropecuaria"
+  },
+  {
+    "id": 713,
+    "nombre": "Gestión sostenible de los bosques"
+  },
+  {
+    "id": 714,
+    "nombre": "Reducción de las emisiones debidas a la degradación forestal"
+  },
+  {
+    "id": 715,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de tierras forestales"
+  },
+  {
+    "id": 716,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de tierras de cultivo"
+  },
+  {
+    "id": 717,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de pastizales"
+  },
+  {
+    "id": 718,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa en otras tierras"
+  },
+  {
+    "id": 719,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Uso de cal"
+  },
+  {
+    "id": 720,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 721,
+    "nombre": "Cambio de modelos productivos en cultivos - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 722,
+    "nombre": "AMTEC - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 723,
+    "nombre": "Cambio de modelos productivos en cultivos - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 724,
+    "nombre": "Manejo y disposición de residuos animales -Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 725,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 726,
+    "nombre": "Cambio de modelos productivos en cultivos - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 727,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 728,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 729,
+    "nombre": "Cambio de modelos productivos en cultivos - Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 730,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 731,
+    "nombre": "Cambio de modelos productivos en cultivos - Gestión de suelos histosoles (FOS)"
+  },
+  {
+    "id": 732,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Gestión de suelos histosoles (FOS)"
+  },
+  {
+    "id": 733,
+    "nombre": "Manejo y disposición de residuos animales - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 734,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 735,
+    "nombre": "Manejo y disposición de residuos animales - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 736,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 737,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 738,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 739,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 740,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 741,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 742,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 743,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 744,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 745,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 746,
+    "nombre": "Plantaciones forestales"
+  },
+  {
+    "id": 747,
+    "nombre": "Restauración forestal"
+  },
+  {
+    "id": 748,
+    "nombre": "Actividad relacionada a fuente de emisión Indirecta"
+  },
+  {
+    "id": 749,
+    "nombre": "Eficiencia energética en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 750,
+    "nombre": "Eficiencia energética en otras actividades fluviales"
+  },
+  {
+    "id": 751,
+    "nombre": "Eficiencia energética en otras industrias"
+  },
+  {
+    "id": 752,
+    "nombre": "Eficiencia energética en producción de coque"
+  },
+  {
+    "id": 753,
+    "nombre": "Eficiencia energética en producción de electricidad y calor"
+  },
+  {
+    "id": 754,
+    "nombre": "Eficiencia energética en refinación de petróleo"
+  },
+  {
+    "id": 755,
+    "nombre": "Eficiencia energética en sector agropecuario"
+  },
+  {
+    "id": 756,
+    "nombre": "Eficiencia energética en sector comercial"
+  },
+  {
+    "id": 757,
+    "nombre": "Eficiencia energética en sector institucional"
+  },
+  {
+    "id": 758,
+    "nombre": "Eficiencia energética en sector residencial"
+  },
+  {
+    "id": 759,
+    "nombre": "Eficiencia energética en transporte férreo"
+  },
+  {
+    "id": 760,
+    "nombre": "Eficiencia energética en transporte marítimo y fluvial"
+  },
+  {
+    "id": 761,
+    "nombre": "Eficiencia energética en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 762,
+    "nombre": "Eficiencia energética en transporte terrestre de carga"
+  },
+  {
+    "id": 763,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 764,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 765,
+    "nombre": "Eficiencia energética en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 766,
+    "nombre": "Eficiencia energética en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 767,
+    "nombre": "Generación de electricidad renovable - no convencional"
+  },
+  {
+    "id": 768,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Automóviles)"
+  },
+  {
+    "id": 769,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Camiones para servicio pesado y autobuses)"
+  },
+  {
+    "id": 770,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 771,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (motocicletas)"
+  },
+  {
+    "id": 772,
+    "nombre": "Mejora de procesos en refinación de petróleo"
+  },
+  {
+    "id": 773,
+    "nombre": "Nuevas tecnologías en operaciones aéreas"
+  },
+  {
+    "id": 774,
+    "nombre": "Nuevas tecnologías en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 775,
+    "nombre": "Nuevas tecnologías en transporte terrestre de carga"
+  },
+  {
+    "id": 776,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 777,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 778,
+    "nombre": "Nuevas tecnologías en transporte terrestre publico colectivo de pasajeros"
+  },
+  {
+    "id": 779,
+    "nombre": "Nuevas tecnologías en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 780,
+    "nombre": "Sustitución de combustibles en operaciones de minería de carbón"
+  },
+  {
+    "id": 787,
+    "nombre": "Sustitución de energéticos en industrias de la Construcción"
+  },
+  {
+    "id": 781,
+    "nombre": "Sustitución de combustibles en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 782,
+    "nombre": "Sustitución de energéticos en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 783,
+    "nombre": "Sustitución de energéticos en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 784,
+    "nombre": "Sustitución de energéticos en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 785,
+    "nombre": "Sustitución de energéticos en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 786,
+    "nombre": "Sustitución de energéticos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 788,
+    "nombre": "Sustitución de energéticos en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 789,
+    "nombre": "Sustitución de energéticos en industrias de metales no ferrosos"
+  },
+  {
+    "id": 790,
+    "nombre": "Sustitución de energéticos en industrias de minerales no metálicos"
+  },
+  {
+    "id": 791,
+    "nombre": "Sustitución de energéticos en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 792,
+    "nombre": "Sustitución de energéticos en industrias de productos químicos"
+  },
+  {
+    "id": 793,
+    "nombre": "Sustitución de energéticos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 794,
+    "nombre": "Sustitución de energéticos en industrias de textiles y cueros"
+  },
+  {
+    "id": 795,
+    "nombre": "Sustitución de energéticos en industrias hierro y acero"
+  },
+  {
+    "id": 796,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 797,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 798,
+    "nombre": "Sustitución de energéticos en operaciones aéreas"
+  },
+  {
+    "id": 799,
+    "nombre": "Sustitución de energéticos en otras industrias"
+  },
+  {
+    "id": 800,
+    "nombre": "Sustitución de energéticos en producción de electricidad y calor"
+  },
+  {
+    "id": 801,
+    "nombre": "Sustitución de energéticos en refinación de petróleo"
+  },
+  {
+    "id": 802,
+    "nombre": "Sustitución de energéticos en sector agropecuario"
+  },
+  {
+    "id": 803,
+    "nombre": "Sustitución de energéticos en sector comercial"
+  },
+  {
+    "id": 804,
+    "nombre": "Sustitución de energéticos en sector institucional"
+  },
+  {
+    "id": 805,
+    "nombre": "Sustitución de energéticos en sector residencial"
+  },
+  {
+    "id": 806,
+    "nombre": "Sustitución de energéticos en transporte férreo"
+  },
+  {
+    "id": 807,
+    "nombre": "Sustitución de energéticos en transporte marítimo y fluvial"
+  },
+  {
+    "id": 808,
+    "nombre": "Sustitución de energéticos en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 809,
+    "nombre": "Sustitución de energéticos en transporte terrestre de carga"
+  },
+  {
+    "id": 810,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 811,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 812,
+    "nombre": "Sustitución de energéticos en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 813,
+    "nombre": "Sustitución de energéticos en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 814,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Comercial"
+  },
+  {
+    "id": 815,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Industria manufacturera"
+  },
+  {
+    "id": 816,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Móvil"
+  },
+  {
+    "id": 817,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Residencial"
+  },
+  {
+    "id": 818,
+    "nombre": "Gestión adecuada de equipos eléctricos al final de su vida útil - Eliminación de equipos eléctricos"
+  },
+  {
+    "id": 819,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aceleradores"
+  },
+  {
+    "id": 820,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aplicaciones militares"
+  },
+  {
+    "id": 821,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Otros"
+  },
+  {
+    "id": 822,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 823,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 824,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 825,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 826,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 827,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 828,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 829,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 830,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 831,
+    "nombre": "Mejora de procesos en industria de los metales - Otros"
+  },
+  {
+    "id": 832,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 833,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 834,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 835,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros"
+  },
+  {
+    "id": 836,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 837,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 838,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 839,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 840,
+    "nombre": "Mejora de procesos en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 841,
+    "nombre": "Mejora de procesos en industria química - Metanol"
+  },
+  {
+    "id": 842,
+    "nombre": "Mejora de procesos en industria química - Negro de humo"
+  },
+  {
+    "id": 843,
+    "nombre": "Mejora de procesos en industria química - Otros"
+  },
+  {
+    "id": 844,
+    "nombre": "Mejora de procesos en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 845,
+    "nombre": "Mejora de procesos en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 846,
+    "nombre": "Mejora de procesos en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 847,
+    "nombre": "Mejora de procesos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 848,
+    "nombre": "Mejora de procesos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 849,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 850,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 851,
+    "nombre": "Mejora de procesos en otros procesos industriales"
+  },
+  {
+    "id": 852,
+    "nombre": "Nuevas tecnologías en industria de los metales - Otros"
+  },
+  {
+    "id": 853,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 854,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 855,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 856,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros"
+  },
+  {
+    "id": 857,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 858,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 859,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 860,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 861,
+    "nombre": "Nuevas tecnologías en industria química - Etileno"
+  },
+  {
+    "id": 862,
+    "nombre": "Nuevas tecnologías en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 863,
+    "nombre": "Nuevas tecnologías en industria química - Negro de humo"
+  },
+  {
+    "id": 864,
+    "nombre": "Nuevas tecnologías en industria química - Otros"
+  },
+  {
+    "id": 865,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 866,
+    "nombre": "Nuevas tecnologías en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 867,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 868,
+    "nombre": "Nuevas tecnologías en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 869,
+    "nombre": "Nuevas tecnologías en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 870,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 871,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 872,
+    "nombre": "Nuevas tecnologías en otros procesos industriales"
+  },
+  {
+    "id": 873,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 874,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 875,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 876,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 877,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 878,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 879,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 880,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 881,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 882,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 883,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 884,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 885,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 886,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Aplicaciones médicas"
+  },
+  {
+    "id": 887,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Propulsor para productos presurizados y aerosoles"
+  },
+  {
+    "id": 888,
+    "nombre": "Sustitución de N2O en otras aplicaciones - Otros"
+  },
+  {
+    "id": 889,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 890,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 891,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 892,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 893,
+    "nombre": "Manejo y disposición de residuos animales - Avicultura"
+  },
+  {
+    "id": 894,
+    "nombre": "Manejo y disposición de residuos animales - Búfalos"
+  },
+  {
+    "id": 895,
+    "nombre": "Manejo y disposición de residuos animales - Caballos"
+  },
+  {
+    "id": 896,
+    "nombre": "Manejo y disposición de residuos animales - Caprinos"
+  },
+  {
+    "id": 897,
+    "nombre": "Manejo y disposición de residuos animales - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 898,
+    "nombre": "Manejo y disposición de residuos animales - Ganado bovino"
+  },
+  {
+    "id": 899,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 900,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 901,
+    "nombre": "Manejo y disposición de residuos animales - Mulas y asnos"
+  },
+  {
+    "id": 902,
+    "nombre": "Manejo y disposición de residuos animales - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 903,
+    "nombre": "Manejo y disposición de residuos animales - Ovinos"
+  },
+  {
+    "id": 904,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos < 6 meses"
+  },
+  {
+    "id": 905,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos > 6 meses"
+  },
+  {
+    "id": 906,
+    "nombre": "Manejo y disposición de residuos animales - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 907,
+    "nombre": "Plantaciones forestales"
+  },
+  {
+    "id": 908,
+    "nombre": "Repoblamiento forestal"
+  },
+  {
+    "id": 909,
+    "nombre": "Actividades de saneamiento"
+  },
+  {
+    "id": 910,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales domesticas"
+  },
+  {
+    "id": 911,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales industriales"
+  },
+  {
+    "id": 912,
+    "nombre": "Cambio de patrones de comportamiento en la generación de residuos sólidos"
+  },
+  {
+    "id": 913,
+    "nombre": "Cambios tecnológicos en tratamiento de aguas residuales"
+  },
+  {
+    "id": 914,
+    "nombre": "Cambios tecnológicos en tratamiento de aguas residuales industriales"
+  },
+  {
+    "id": 915,
+    "nombre": "Coprocesamiento"
+  },
+  {
+    "id": 916,
+    "nombre": "Gestión de biogás en otros sitios gestionados de disposición de residuos"
+  },
+  {
+    "id": 917,
+    "nombre": "Gestión de biogás en planta de tratamiento de aguas residual industrial"
+  },
+  {
+    "id": 918,
+    "nombre": "Gestión de biogás en plantas de tratamiento de aguas residuales domésticas"
+  },
+  {
+    "id": 919,
+    "nombre": "Gestión de biogás en rellenos sanitarios regionales"
+  },
+  {
+    "id": 920,
+    "nombre": "Gestión de biogás en sitios no categorizados de disposición de residuos"
+  },
+  {
+    "id": 921,
+    "nombre": "Gestión de biogás en sitios no gestionados de disposición de residuos sólidos"
+  },
+  {
+    "id": 1,
+    "nombre": "Aprovechamiento de metano (CBM - Gases Metano Asociados a Mantos de Carbón - Coal Bed Methane)"
+  },
+  {
+    "id": 2,
+    "nombre": "Aprovechamiento de metano (CMM - Coal Mine Methane - Gas explotado junto con la explotación del carbón)"
+  },
+  {
+    "id": 3,
+    "nombre": "Aprovechamiento de metano (VAM - Ventilation Air Methane - Metano capturado en el sistema de ventilación)"
+  },
+  {
+    "id": 4,
+    "nombre": "Captura y aprovechamiento de gas natural"
+  },
+  {
+    "id": 5,
+    "nombre": "Eficiencia energética en actividades de pesca"
+  },
+  {
+    "id": 6,
+    "nombre": "Eficiencia energética en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 7,
+    "nombre": "Eficiencia energética en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 8,
+    "nombre": "Eficiencia energética en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 9,
+    "nombre": "Eficiencia energética en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 10,
+    "nombre": "Eficiencia energética en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 11,
+    "nombre": "Eficiencia energética en industrias de la Construcción"
+  },
+  {
+    "id": 12,
+    "nombre": "Eficiencia energética en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 13,
+    "nombre": "Eficiencia energética en industrias de metales no ferrosos"
+  },
+  {
+    "id": 14,
+    "nombre": "Eficiencia energética en industrias de minerales no metálicos"
+  },
+  {
+    "id": 15,
+    "nombre": "Eficiencia energética en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 16,
+    "nombre": "Eficiencia energética en industrias de productos químicos"
+  },
+  {
+    "id": 17,
+    "nombre": "Eficiencia energética en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 18,
+    "nombre": "Eficiencia energética en industrias de textiles y cueros"
+  },
+  {
+    "id": 19,
+    "nombre": "Eficiencia energética en industrias hierro y acero"
+  },
+  {
+    "id": 20,
+    "nombre": "Eficiencia energética en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 21,
+    "nombre": "Eficiencia energética en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 22,
+    "nombre": "Eficiencia energética en operaciones aéreas"
+  },
+  {
+    "id": 23,
+    "nombre": "Eficiencia energética en operaciones de minería de carbón"
+  },
+  {
+    "id": 24,
+    "nombre": "Eficiencia energética en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 25,
+    "nombre": "Eficiencia energética en otras actividades fluviales"
+  },
+  {
+    "id": 26,
+    "nombre": "Eficiencia energética en otras industrias"
+  },
+  {
+    "id": 27,
+    "nombre": "Eficiencia energética en producción de coque"
+  },
+  {
+    "id": 28,
+    "nombre": "Eficiencia energética en producción de electricidad y calor"
+  },
+  {
+    "id": 29,
+    "nombre": "Eficiencia energética en refinación de petróleo"
+  },
+  {
+    "id": 30,
+    "nombre": "Eficiencia energética en sector agropecuario"
+  },
+  {
+    "id": 31,
+    "nombre": "Eficiencia energética en sector comercial"
+  },
+  {
+    "id": 32,
+    "nombre": "Eficiencia energética en sector institucional"
+  },
+  {
+    "id": 33,
+    "nombre": "Eficiencia energética en sector residencial"
+  },
+  {
+    "id": 34,
+    "nombre": "Eficiencia energética en transporte férreo"
+  },
+  {
+    "id": 35,
+    "nombre": "Eficiencia energética en transporte marítimo y fluvial"
+  },
+  {
+    "id": 36,
+    "nombre": "Eficiencia energética en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 37,
+    "nombre": "Eficiencia energética en transporte terrestre de carga"
+  },
+  {
+    "id": 38,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 39,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 40,
+    "nombre": "Eficiencia energética en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 41,
+    "nombre": "Eficiencia energética en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 42,
+    "nombre": "Generación de electricidad renovable - no convencional"
+  },
+  {
+    "id": 43,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Automóviles)"
+  },
+  {
+    "id": 44,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Camiones para servicio pesado y autobuses)"
+  },
+  {
+    "id": 45,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 56,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (motocicletas)"
+  },
+  {
+    "id": 57,
+    "nombre": "Mejora de procesos en refinación de petróleo"
+  },
+  {
+    "id": 58,
+    "nombre": "Nuevas tecnologías en operaciones aéreas"
+  },
+  {
+    "id": 59,
+    "nombre": "Nuevas tecnologías en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 60,
+    "nombre": "Nuevas tecnologías en transporte terrestre de carga"
+  },
+  {
+    "id": 61,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 62,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 63,
+    "nombre": "Nuevas tecnologías en transporte terrestre publico colectivo de pasajeros"
+  },
+  {
+    "id": 64,
+    "nombre": "Nuevas tecnologías en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 65,
+    "nombre": "Sustitución de combustibles en operaciones de minería de carbón"
+  },
+  {
+    "id": 66,
+    "nombre": "Sustitución de combustibles en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 67,
+    "nombre": "Sustitución de energéticos en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 68,
+    "nombre": "Sustitución de energéticos en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 69,
+    "nombre": "Sustitución de energéticos en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 70,
+    "nombre": "Sustitución de energéticos en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 71,
+    "nombre": "Sustitución de energéticos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 72,
+    "nombre": "Sustitución de energéticos en industrias de la Construcción"
+  },
+  {
+    "id": 73,
+    "nombre": "Sustitución de energéticos en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 74,
+    "nombre": "Sustitución de energéticos en industrias de metales no ferrosos"
+  },
+  {
+    "id": 75,
+    "nombre": "Sustitución de energéticos en industrias de minerales no metálicos"
+  },
+  {
+    "id": 76,
+    "nombre": "Sustitución de energéticos en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 77,
+    "nombre": "Sustitución de energéticos en industrias de productos químicos"
+  },
+  {
+    "id": 78,
+    "nombre": "Sustitución de energéticos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 79,
+    "nombre": "Sustitución de energéticos en industrias de textiles y cueros"
+  },
+  {
+    "id": 80,
+    "nombre": "Sustitución de energéticos en industrias hierro y acero"
+  },
+  {
+    "id": 81,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 82,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 83,
+    "nombre": "Sustitución de energéticos en operaciones aéreas"
+  },
+  {
+    "id": 84,
+    "nombre": "Sustitución de energéticos en otras industrias"
+  },
+  {
+    "id": 85,
+    "nombre": "Sustitución de energéticos en producción de electricidad y calor"
+  },
+  {
+    "id": 86,
+    "nombre": "Sustitución de energéticos en refinación de petróleo"
+  },
+  {
+    "id": 87,
+    "nombre": "Sustitución de energéticos en sector agropecuario"
+  },
+  {
+    "id": 88,
+    "nombre": "Sustitución de energéticos en sector comercial"
+  },
+  {
+    "id": 89,
+    "nombre": "Sustitución de energéticos en sector institucional"
+  },
+  {
+    "id": 90,
+    "nombre": "Sustitución de energéticos en sector residencial"
+  },
+  {
+    "id": 91,
+    "nombre": "Sustitución de energéticos en transporte férreo"
+  },
+  {
+    "id": 92,
+    "nombre": "Sustitución de energéticos en transporte marítimo y fluvial"
+  },
+  {
+    "id": 93,
+    "nombre": "Sustitución de energéticos en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 94,
+    "nombre": "Sustitución de energéticos en transporte terrestre de carga"
+  },
+  {
+    "id": 95,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 96,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 97,
+    "nombre": "Sustitución de energéticos en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 98,
+    "nombre": "Sustitución de energéticos en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 99,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Comercial"
+  },
+  {
+    "id": 100,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Industria manufacturera"
+  },
+  {
+    "id": 101,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Móvil"
+  },
+  {
+    "id": 102,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Residencial"
+  },
+  {
+    "id": 103,
+    "nombre": "Gestión adecuada de equipos eléctricos al final de su vida útil - Eliminación de equipos eléctricos"
+  },
+  {
+    "id": 104,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aceleradores"
+  },
+  {
+    "id": 105,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aplicaciones militares"
+  },
+  {
+    "id": 106,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Otros"
+  },
+  {
+    "id": 107,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 108,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 109,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 110,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 111,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 112,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 113,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 114,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 115,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 116,
+    "nombre": "Mejora de procesos en industria de los metales - Otros"
+  },
+  {
+    "id": 117,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 118,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 119,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 120,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros"
+  },
+  {
+    "id": 121,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 122,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 123,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 124,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 125,
+    "nombre": "Mejora de procesos en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 126,
+    "nombre": "Mejora de procesos en industria química - Metanol"
+  },
+  {
+    "id": 127,
+    "nombre": "Mejora de procesos en industria química - Negro de humo"
+  },
+  {
+    "id": 128,
+    "nombre": "Mejora de procesos en industria química - Otros"
+  },
+  {
+    "id": 129,
+    "nombre": "Mejora de procesos en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 130,
+    "nombre": "Mejora de procesos en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 131,
+    "nombre": "Mejora de procesos en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 132,
+    "nombre": "Mejora de procesos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 133,
+    "nombre": "Mejora de procesos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 134,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 135,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 136,
+    "nombre": "Mejora de procesos en otros procesos industriales"
+  },
+  {
+    "id": 137,
+    "nombre": "Nuevas tecnologías en industria de los metales - Otros"
+  },
+  {
+    "id": 138,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 139,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 140,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 141,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros"
+  },
+  {
+    "id": 142,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 143,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 144,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 145,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 146,
+    "nombre": "Nuevas tecnologías en industria química - Etileno"
+  },
+  {
+    "id": 147,
+    "nombre": "Nuevas tecnologías en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 148,
+    "nombre": "Nuevas tecnologías en industria química - Negro de humo"
+  },
+  {
+    "id": 149,
+    "nombre": "Nuevas tecnologías en industria química - Otros"
+  },
+  {
+    "id": 150,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 151,
+    "nombre": "Nuevas tecnologías en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 152,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 153,
+    "nombre": "Nuevas tecnologías en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 154,
+    "nombre": "Nuevas tecnologías en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 155,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 156,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 157,
+    "nombre": "Nuevas tecnologías en otros procesos industriales"
+  },
+  {
+    "id": 158,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 159,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 160,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 161,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 162,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 163,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 164,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 165,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 166,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 167,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 168,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 169,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 170,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 171,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Aplicaciones médicas"
+  },
+  {
+    "id": 172,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Propulsor para productos presurizados y aerosoles"
+  },
+  {
+    "id": 173,
+    "nombre": "Sustitución de N2O en otras aplicaciones - Otros"
+  },
+  {
+    "id": 174,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 175,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 176,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 177,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 178,
+    "nombre": "AMTEC - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 179,
+    "nombre": "AMTEC de arroz Riego"
+  },
+  {
+    "id": 180,
+    "nombre": "AMTEC de arroz Secano"
+  },
+  {
+    "id": 181,
+    "nombre": "Cambio de modelos productivos en cultivos - Cultivo de arroz Riego"
+  },
+  {
+    "id": 182,
+    "nombre": "Cambio de modelos productivos en cultivos - Cultivo de arroz secano"
+  },
+  {
+    "id": 183,
+    "nombre": "Cambio de modelos productivos en cultivos - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 184,
+    "nombre": "Cambio de modelos productivos en cultivos - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 185,
+    "nombre": "Cambio de modelos productivos en cultivos - Gestión de suelos histosoles (FOS)"
+  },
+  {
+    "id": 186,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 187,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 188,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 189,
+    "nombre": "Cambio de modelos productivos en cultivos - Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 190,
+    "nombre": "Cambio de modelos productivos en cultivos - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 191,
+    "nombre": "Cambios en modelos productivos pecuarios - Avicultura"
+  },
+  {
+    "id": 192,
+    "nombre": "Cambios en modelos productivos pecuarios - Búfalos"
+  },
+  {
+    "id": 193,
+    "nombre": "Cambios en modelos productivos pecuarios - Caballos"
+  },
+  {
+    "id": 194,
+    "nombre": "Cambios en modelos productivos pecuarios - Caprinos"
+  },
+  {
+    "id": 195,
+    "nombre": "Cambios en modelos productivos pecuarios - Ganado bovino"
+  },
+  {
+    "id": 196,
+    "nombre": "Cambios en modelos productivos pecuarios - Mulas y asnos"
+  },
+  {
+    "id": 197,
+    "nombre": "Cambios en modelos productivos pecuarios - Ovinos"
+  },
+  {
+    "id": 198,
+    "nombre": "Cambios en modelos productivos pecuarios - Porcinos < 6 meses"
+  },
+  {
+    "id": 199,
+    "nombre": "Cambios en modelos productivos pecuarios - Porcinos > 6 meses"
+  },
+  {
+    "id": 200,
+    "nombre": "Implementación o mejoramiento de sistemas con árboles para producción agropecuaria"
+  },
+  {
+    "id": 201,
+    "nombre": "Incremento de las reservas forestales de carbono"
+  },
+  {
+    "id": 202,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 203,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 204,
+    "nombre": "Manejo y disposición de residuos animales - Avicultura"
+  },
+  {
+    "id": 205,
+    "nombre": "Manejo y disposición de residuos animales - Búfalos"
+  },
+  {
+    "id": 206,
+    "nombre": "Manejo y disposición de residuos animales - Caballos"
+  },
+  {
+    "id": 207,
+    "nombre": "Manejo y disposición de residuos animales - Caprinos"
+  },
+  {
+    "id": 208,
+    "nombre": "Manejo y disposición de residuos animales - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 209,
+    "nombre": "Manejo y disposición de residuos animales - Ganado bovino"
+  },
+  {
+    "id": 210,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 211,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 212,
+    "nombre": "Manejo y disposición de residuos animales - Mulas y asnos"
+  },
+  {
+    "id": 213,
+    "nombre": "Manejo y disposición de residuos animales - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 214,
+    "nombre": "Manejo y disposición de residuos animales - Ovinos"
+  },
+  {
+    "id": 215,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos < 6 meses"
+  },
+  {
+    "id": 216,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos > 6 meses"
+  },
+  {
+    "id": 217,
+    "nombre": "Manejo y disposición de residuos animales - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 218,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Avicultura"
+  },
+  {
+    "id": 219,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Búfalos"
+  },
+  {
+    "id": 220,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Caballos"
+  },
+  {
+    "id": 221,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Caprinos"
+  },
+  {
+    "id": 222,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Cultivo de arroz Riego"
+  },
+  {
+    "id": 223,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Cultivo de arroz secano"
+  },
+  {
+    "id": 224,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 225,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 226,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Ganado bovino"
+  },
+  {
+    "id": 227,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Gestión de suelos histosoles (FOS)"
+  },
+  {
+    "id": 228,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 229,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 230,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Lixiviación/escurrimiento Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 231,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 232,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Mulas y asnos"
+  },
+  {
+    "id": 233,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 234,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Ovinos"
+  },
+  {
+    "id": 235,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Porcinos < 6 meses"
+  },
+  {
+    "id": 236,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Porcinos > 6 meses"
+  },
+  {
+    "id": 237,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de pastizales"
+  },
+  {
+    "id": 238,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de tierras de cultivo"
+  },
+  {
+    "id": 239,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa de tierras forestales"
+  },
+  {
+    "id": 240,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Quema de biomasa en otras tierras"
+  },
+  {
+    "id": 241,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Residuos de cultivo incluidos los fijadores de nitrógeno y de forraje en la renovación de pasturas (FCR)"
+  },
+  {
+    "id": 242,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Uso de cal"
+  },
+  {
+    "id": 243,
+    "nombre": "Nuevas tecnologías en sector agropecuario - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 244,
+    "nombre": "Plantaciones forestales"
+  },
+  {
+    "id": 245,
+    "nombre": "Repoblamiento forestal"
+  },
+  {
+    "id": 246,
+    "nombre": "Uso energético de la biomasa forestal (uso asociado a degradación forestal)"
+  },
+  {
+    "id": 247,
+    "nombre": "Actividades de saneamiento"
+  },
+  {
+    "id": 248,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales domesticas"
+  },
+  {
+    "id": 249,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales industriales"
+  },
+  {
+    "id": 250,
+    "nombre": "Cambio de patrones de comportamiento en la generación de residuos sólidos"
+  },
+  {
+    "id": 251,
+    "nombre": "Cambios tecnológicos en tratamiento de aguas residuales"
+  },
+  {
+    "id": 252,
+    "nombre": "Cambios tecnológicos en tratamiento de aguas residuales industriales"
+  },
+  {
+    "id": 253,
+    "nombre": "Coprocesamiento"
+  },
+  {
+    "id": 254,
+    "nombre": "Gestión de biogás en otros sitios gestionados de disposición de residuos"
+  },
+  {
+    "id": 255,
+    "nombre": "Gestión de biogás en planta de tratamiento de aguas residual industrial"
+  },
+  {
+    "id": 256,
+    "nombre": "Gestión de biogás en plantas de tratamiento de aguas residuales domésticas"
+  },
+  {
+    "id": 257,
+    "nombre": "Gestión de biogás en rellenos sanitarios regionales"
+  },
+  {
+    "id": 258,
+    "nombre": "Gestión de biogás en sitios no categorizados de disposición de residuos"
+  },
+  {
+    "id": 259,
+    "nombre": "Gestión de biogás en sitios no gestionados de disposición de residuos sólidos"
+  },
+  {
+    "id": 260,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 261,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales industriales"
+  },
+  {
+    "id": 262,
+    "nombre": "Reciclaje de residuos sólidos"
+  },
+  {
+    "id": 263,
+    "nombre": "Tratamiento biológico de residuos sólidos con gestión de biogás"
+  },
+  {
+    "id": 264,
+    "nombre": "Tratamiento biológico de residuos sólidos sin gestión de biogás"
+  },
+  {
+    "id": 265,
+    "nombre": "Tratamiento mecánico para la gestión de residuos sólidos"
+  },
+  {
+    "id": 266,
+    "nombre": "Tratamiento térmico de residuos sólidos"
+  },
+  {
+    "id": 267,
+    "nombre": "Aprovechamiento de metano (CBM - Gases Metano Asociados a Mantos de Carbón - Coal Bed Methane)"
+  },
+  {
+    "id": 268,
+    "nombre": "Aprovechamiento de metano (CMM - Coal Mine Methane - Gas explotado junto con la explotación\n del carbón)"
+  },
+  {
+    "id": 269,
+    "nombre": "Aprovechamiento de metano (VAM - Ventilation Air Methane - Metano capturado en el sistema de ventilación)"
+  },
+  {
+    "id": 270,
+    "nombre": "Captura y aprovechamiento de gas natural"
+  },
+  {
+    "id": 271,
+    "nombre": "Eficiencia energética en actividades de pesca"
+  },
+  {
+    "id": 272,
+    "nombre": "Eficiencia energética en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 273,
+    "nombre": "Eficiencia energética en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 274,
+    "nombre": "Eficiencia energética en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 275,
+    "nombre": "Eficiencia energética en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 276,
+    "nombre": "Eficiencia energética en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 277,
+    "nombre": "Eficiencia energética en industrias de la Construcción"
+  },
+  {
+    "id": 278,
+    "nombre": "Eficiencia energética en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 279,
+    "nombre": "Eficiencia energética en industrias de metales no ferrosos"
+  },
+  {
+    "id": 280,
+    "nombre": "Eficiencia energética en industrias de minerales no metálicos"
+  },
+  {
+    "id": 281,
+    "nombre": "Eficiencia energética en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 282,
+    "nombre": "Eficiencia energética en industrias de productos químicos"
+  },
+  {
+    "id": 283,
+    "nombre": "Eficiencia energética en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 284,
+    "nombre": "Eficiencia energética en industrias de textiles y cueros"
+  },
+  {
+    "id": 285,
+    "nombre": "Eficiencia energética en industrias hierro y acero"
+  },
+  {
+    "id": 286,
+    "nombre": "Eficiencia energética en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 287,
+    "nombre": "Eficiencia energética en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 288,
+    "nombre": "Eficiencia energética en operaciones aéreas"
+  },
+  {
+    "id": 289,
+    "nombre": "Eficiencia energética en operaciones de minería de carbón"
+  },
+  {
+    "id": 290,
+    "nombre": "Eficiencia energética en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 291,
+    "nombre": "Eficiencia energética en otras actividades fluviales"
+  },
+  {
+    "id": 292,
+    "nombre": "Eficiencia energética en otras industrias"
+  },
+  {
+    "id": 293,
+    "nombre": "Eficiencia energética en producción de coque"
+  },
+  {
+    "id": 294,
+    "nombre": "Eficiencia energética en producción de electricidad y calor"
+  },
+  {
+    "id": 295,
+    "nombre": "Eficiencia energética en refinación de petróleo"
+  },
+  {
+    "id": 296,
+    "nombre": "Eficiencia energética en sector agropecuario"
+  },
+  {
+    "id": 297,
+    "nombre": "Eficiencia energética en sector comercial"
+  },
+  {
+    "id": 298,
+    "nombre": "Eficiencia energética en sector institucional"
+  },
+  {
+    "id": 299,
+    "nombre": "Eficiencia energética en sector residencial"
+  },
+  {
+    "id": 300,
+    "nombre": "Eficiencia energética en transporte férreo"
+  },
+  {
+    "id": 301,
+    "nombre": "Eficiencia energética en transporte marítimo y fluvial"
+  },
+  {
+    "id": 302,
+    "nombre": "Eficiencia energética en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 303,
+    "nombre": "Eficiencia energética en transporte terrestre de carga"
+  },
+  {
+    "id": 304,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 305,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 306,
+    "nombre": "Eficiencia energética en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 307,
+    "nombre": "Eficiencia energética en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 308,
+    "nombre": "Generación de electricidad renovable - no convencional"
+  },
+  {
+    "id": 309,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Automóviles)"
+  },
+  {
+    "id": 310,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Camiones para servicio pesado y autobuses)"
+  },
+  {
+    "id": 311,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 312,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (motocicletas)"
+  },
+  {
+    "id": 313,
+    "nombre": "Mejora de procesos en refinación de petróleo"
+  },
+  {
+    "id": 314,
+    "nombre": "Nuevas tecnologías en operaciones aéreas"
+  },
+  {
+    "id": 315,
+    "nombre": "Nuevas tecnologías en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 316,
+    "nombre": "Nuevas tecnologías en transporte terrestre de carga"
+  },
+  {
+    "id": 317,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 318,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 319,
+    "nombre": "Nuevas tecnologías en transporte terrestre publico colectivo de pasajeros"
+  },
+  {
+    "id": 320,
+    "nombre": "Nuevas tecnologías en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 321,
+    "nombre": "Sustitución de combustibles en operaciones de minería de carbón"
+  },
+  {
+    "id": 322,
+    "nombre": "Sustitución de combustibles en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 323,
+    "nombre": "Sustitución de energéticos en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 324,
+    "nombre": "Sustitución de energéticos en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 325,
+    "nombre": "Sustitución de energéticos en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 326,
+    "nombre": "Sustitución de energéticos en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 327,
+    "nombre": "Sustitución de energéticos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 328,
+    "nombre": "Sustitución de energéticos en industrias de la Construcción"
+  },
+  {
+    "id": 329,
+    "nombre": "Sustitución de energéticos en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 330,
+    "nombre": "Sustitución de energéticos en industrias de metales no ferrosos"
+  },
+  {
+    "id": 331,
+    "nombre": "Sustitución de energéticos en industrias de minerales no metálicos"
+  },
+  {
+    "id": 332,
+    "nombre": "Sustitución de energéticos en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 333,
+    "nombre": "Sustitución de energéticos en industrias de productos químicos"
+  },
+  {
+    "id": 334,
+    "nombre": "Sustitución de energéticos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 335,
+    "nombre": "Sustitución de energéticos en industrias de textiles y cueros"
+  },
+  {
+    "id": 336,
+    "nombre": "Sustitución de energéticos en industrias hierro y acero"
+  },
+  {
+    "id": 337,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 338,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 339,
+    "nombre": "Sustitución de energéticos en operaciones aéreas"
+  },
+  {
+    "id": 340,
+    "nombre": "Sustitución de energéticos en otras industrias"
+  },
+  {
+    "id": 341,
+    "nombre": "Sustitución de energéticos en producción de electricidad y calor"
+  },
+  {
+    "id": 342,
+    "nombre": "Sustitución de energéticos en refinación de petróleo"
+  },
+  {
+    "id": 343,
+    "nombre": "Sustitución de energéticos en sector agropecuario"
+  },
+  {
+    "id": 344,
+    "nombre": "Sustitución de energéticos en sector comercial"
+  },
+  {
+    "id": 345,
+    "nombre": "Sustitución de energéticos en sector institucional"
+  },
+  {
+    "id": 346,
+    "nombre": "Sustitución de energéticos en sector residencial"
+  },
+  {
+    "id": 347,
+    "nombre": "Sustitución de energéticos en transporte férreo"
+  },
+  {
+    "id": 348,
+    "nombre": "Sustitución de energéticos en transporte marítimo y fluvial"
+  },
+  {
+    "id": 349,
+    "nombre": "Sustitución de energéticos en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 350,
+    "nombre": "Sustitución de energéticos en transporte terrestre de carga"
+  },
+  {
+    "id": 351,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 352,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 353,
+    "nombre": "Sustitución de energéticos en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 354,
+    "nombre": "Sustitución de energéticos en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 355,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Comercial"
+  },
+  {
+    "id": 356,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Industria manufacturera"
+  },
+  {
+    "id": 357,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Móvil"
+  },
+  {
+    "id": 358,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Residencial"
+  },
+  {
+    "id": 359,
+    "nombre": "Gestión adecuada de equipos eléctricos al final de su vida útil - Eliminación de equipos eléctricos"
+  },
+  {
+    "id": 360,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aceleradores"
+  },
+  {
+    "id": 361,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aplicaciones militares"
+  },
+  {
+    "id": 362,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Otros"
+  },
+  {
+    "id": 363,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 364,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 365,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 366,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 367,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 368,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 369,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 370,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 371,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 372,
+    "nombre": "Mejora de procesos en industria de los metales - Otros"
+  },
+  {
+    "id": 373,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 374,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 375,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 376,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros"
+  },
+  {
+    "id": 377,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 378,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 379,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 380,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 381,
+    "nombre": "Mejora de procesos en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 382,
+    "nombre": "Mejora de procesos en industria química - Metanol"
+  },
+  {
+    "id": 383,
+    "nombre": "Mejora de procesos en industria química - Negro de humo"
+  },
+  {
+    "id": 384,
+    "nombre": "Mejora de procesos en industria química - Otros"
+  },
+  {
+    "id": 385,
+    "nombre": "Mejora de procesos en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 386,
+    "nombre": "Mejora de procesos en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 387,
+    "nombre": "Mejora de procesos en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 388,
+    "nombre": "Mejora de procesos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 389,
+    "nombre": "Mejora de procesos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 390,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 391,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 392,
+    "nombre": "Mejora de procesos en otros procesos industriales"
+  },
+  {
+    "id": 393,
+    "nombre": "Nuevas tecnologías en industria de los metales - Otros"
+  },
+  {
+    "id": 394,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 395,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 396,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 397,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros"
+  },
+  {
+    "id": 398,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 399,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 400,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 401,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 402,
+    "nombre": "Nuevas tecnologías en industria química - Etileno"
+  },
+  {
+    "id": 403,
+    "nombre": "Nuevas tecnologías en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 404,
+    "nombre": "Nuevas tecnologías en industria química - Negro de humo"
+  },
+  {
+    "id": 405,
+    "nombre": "Nuevas tecnologías en industria química - Otros"
+  },
+  {
+    "id": 406,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 407,
+    "nombre": "Nuevas tecnologías en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 408,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 409,
+    "nombre": "Nuevas tecnologías en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 410,
+    "nombre": "Nuevas tecnologías en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 411,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 412,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 413,
+    "nombre": "Nuevas tecnologías en otros procesos industriales"
+  },
+  {
+    "id": 414,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 415,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 416,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 417,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 418,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 419,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 420,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 421,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 422,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 423,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 424,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 425,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 426,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 427,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Aplicaciones médicas"
+  },
+  {
+    "id": 428,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Propulsor para productos presurizados y aerosoles"
+  },
+  {
+    "id": 429,
+    "nombre": "Sustitución de N2O en otras aplicaciones - Otros"
+  },
+  {
+    "id": 430,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 431,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 432,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 433,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 434,
+    "nombre": "AMTEC - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 435,
+    "nombre": "AMTEC de arroz Riego"
+  },
+  {
+    "id": 436,
+    "nombre": "AMTEC de arroz Secano"
+  },
+  {
+    "id": 437,
+    "nombre": "Cambio de modelos productivos en cultivos - Cultivo de arroz Riego"
+  },
+  {
+    "id": 438,
+    "nombre": "Cambio de modelos productivos en cultivos - Cultivo de arroz secano"
+  },
+  {
+    "id": 439,
+    "nombre": "Cambio de modelos productivos en cultivos - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 440,
+    "nombre": "Cambio de modelos productivos en cultivos - Fertilizante sintético nitrogenado"
+  },
+  {
+    "id": 441,
+    "nombre": "Cambio de modelos productivos en cultivos - Gestión de suelos histosoles (FOS)"
+  },
+  {
+    "id": 442,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 443,
+    "nombre": "Cambio de modelos productivos en cultivos - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 1065,
+    "nombre": "Nuevas tecnologías en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 1066,
+    "nombre": "Nuevas tecnologías en industria química - Negro de humo"
+  },
+  {
+    "id": 1067,
+    "nombre": "Nuevas tecnologías en industria química - Otros"
+  },
+  {
+    "id": 1068,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 1069,
+    "nombre": "Nuevas tecnologías en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 1070,
+    "nombre": "Nuevas tecnologías en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 1071,
+    "nombre": "Nuevas tecnologías en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 1072,
+    "nombre": "Nuevas tecnologías en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 1073,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 1074,
+    "nombre": "Nuevas tecnologías en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 1075,
+    "nombre": "Nuevas tecnologías en otros procesos industriales"
+  },
+  {
+    "id": 1076,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 1077,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 1078,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 1079,
+    "nombre": "Sustitución de equipos de refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 1080,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 1081,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 1082,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 1083,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 1084,
+    "nombre": "Sustitución de HFC y PFC en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 1085,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Comercial"
+  },
+  {
+    "id": 1086,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Industria manufacturera"
+  },
+  {
+    "id": 1087,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Móvil"
+  },
+  {
+    "id": 1088,
+    "nombre": "Sustitución de HFC y PFC en refrigeración y aire acondicionado - Residencial"
+  },
+  {
+    "id": 1089,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Aplicaciones médicas"
+  },
+  {
+    "id": 1090,
+    "nombre": "Sustitución de N2O en aplicaciones médicas y como propulsor - Propulsor para productos presurizados y aerosoles"
+  },
+  {
+    "id": 1091,
+    "nombre": "Sustitución de N2O en otras aplicaciones - Otros"
+  },
+  {
+    "id": 1092,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 1093,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 1094,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 1095,
+    "nombre": "Sustitución de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 1096,
+    "nombre": "Manejo y disposición de residuos animales - Avicultura"
+  },
+  {
+    "id": 1097,
+    "nombre": "Manejo y disposición de residuos animales - Búfalos"
+  },
+  {
+    "id": 1098,
+    "nombre": "Manejo y disposición de residuos animales - Caballos"
+  },
+  {
+    "id": 1099,
+    "nombre": "Manejo y disposición de residuos animales - Caprinos"
+  },
+  {
+    "id": 1100,
+    "nombre": "Manejo y disposición de residuos animales - Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 1101,
+    "nombre": "Manejo y disposición de residuos animales - Ganado bovino"
+  },
+  {
+    "id": 1102,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Fertilizante orgánico (FON)"
+  },
+  {
+    "id": 1103,
+    "nombre": "Manejo y disposición de residuos animales - Lixiviación/escurrimiento Mineralización por cambio en el uso o manejo (FSOM)"
+  },
+  {
+    "id": 1104,
+    "nombre": "Manejo y disposición de residuos animales - Mulas y asnos"
+  },
+  {
+    "id": 1105,
+    "nombre": "Manejo y disposición de residuos animales - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 1106,
+    "nombre": "Manejo y disposición de residuos animales - Ovinos"
+  },
+  {
+    "id": 1107,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos < 6 meses"
+  },
+  {
+    "id": 1108,
+    "nombre": "Manejo y disposición de residuos animales - Porcinos > 6 meses"
+  },
+  {
+    "id": 1109,
+    "nombre": "Manejo y disposición de residuos animales - Volatilización - Orina y estiércol de animales en pastoreo (FPRP)"
+  },
+  {
+    "id": 1110,
+    "nombre": "Plantaciones forestales"
+  },
+  {
+    "id": 1111,
+    "nombre": "Repoblamiento forestal"
+  },
+  {
+    "id": 1112,
+    "nombre": "Actividades de saneamiento"
+  },
+  {
+    "id": 1113,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales domesticas"
+  },
+  {
+    "id": 1114,
+    "nombre": "Cambio de patrones de comportamiento en la generación de aguas residuales industriales"
+  },
+  {
+    "id": 1115,
+    "nombre": "Cambio de patrones de comportamiento en la generación de residuos sólidos"
+  },
+  {
+    "id": 1116,
+    "nombre": "Cambios tecnológicos en tratamiento de aguas residuales"
+  },
+  {
+    "id": 1117,
+    "nombre": "Cambios tecnológicos en tratamiento de aguas residuales industriales"
+  },
+  {
+    "id": 1118,
+    "nombre": "Coprocesamiento"
+  },
+  {
+    "id": 1119,
+    "nombre": "Gestión de biogás en otros sitios gestionados de disposición de residuos"
+  },
+  {
+    "id": 1120,
+    "nombre": "Gestión de biogás en planta de tratamiento de aguas residual industrial"
+  },
+  {
+    "id": 1121,
+    "nombre": "Gestión de biogás en plantas de tratamiento de aguas residuales domésticas"
+  },
+  {
+    "id": 1122,
+    "nombre": "Gestión de biogás en rellenos sanitarios regionales"
+  },
+  {
+    "id": 1123,
+    "nombre": "Gestión de biogás en sitios no categorizados de disposición de residuos"
+  },
+  {
+    "id": 1124,
+    "nombre": "Gestión de biogás en sitios no gestionados de disposición de residuos sólidos"
+  },
+  {
+    "id": 1125,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 1126,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales industriales"
+  },
+  {
+    "id": 1127,
+    "nombre": "Reciclaje de residuos sólidos"
+  },
+  {
+    "id": 1128,
+    "nombre": "Tratamiento biológico de residuos sólidos con gestión de biogás"
+  },
+  {
+    "id": 1129,
+    "nombre": "Tratamiento biológico de residuos sólidos sin gestión de biogás"
+  },
+  {
+    "id": 1130,
+    "nombre": "Tratamiento mecánico para la gestión de residuos sólidos"
+  },
+  {
+    "id": 1131,
+    "nombre": "Tratamiento térmico de residuos sólidos"
+  },
+  {
+    "id": 8500,
+    "nombre": "Realizar actividades asociadas a beneficios ambientales"
+  },
+  {
+    "id": 8900,
+    "nombre": "Realzar actividades asociadas a beneficios sociales"
+  },
+  {
+    "id": 9300,
+    "nombre": "Realizar actividades asociadas a beneficios económicos"
+  },
+  {
+    "id": 9700,
+    "nombre": "Realizar actividades asociadas a beneficios en adaptación al Cambio climático"
+  },
+  {
+    "id": 10500,
+    "nombre": "Eficiencia energética en producción de electricidad y calor"
+  },
+  {
+    "id": 10900,
+    "nombre": "Sustitución de energéticos en producción de electricidad y calor"
+  },
+  {
+    "id": 11300,
+    "nombre": "Mejora de procesos en producción de electricidad y calor"
+  },
+  {
+    "id": 11700,
+    "nombre": "Eficiencia energética en refinación de petróleo"
+  },
+  {
+    "id": 12100,
+    "nombre": "Sustitución de energéticos en refinación de petróleo"
+  },
+  {
+    "id": 12500,
+    "nombre": "Mejora de procesos en refinación de petróleo"
+  },
+  {
+    "id": 12900,
+    "nombre": "Eficiencia energética en otras industrias de la energía"
+  },
+  {
+    "id": 13300,
+    "nombre": "Sustitución de energéticos en otras industrias de la energía"
+  },
+  {
+    "id": 13700,
+    "nombre": "Eficiencia energética en Industrias hierro y acero"
+  },
+  {
+    "id": 14100,
+    "nombre": "Sustitución de energéticos en Industrias hierro y acero"
+  },
+  {
+    "id": 14500,
+    "nombre": "Eficiencia energética en Industrias de metales no ferrosos"
+  },
+  {
+    "id": 14900,
+    "nombre": "Sustitución de energéticos en Industrias de metales no ferrosos"
+  },
+  {
+    "id": 15300,
+    "nombre": "Eficiencia energética en Industrias de productos químicos"
+  },
+  {
+    "id": 15700,
+    "nombre": "Sustitución de energéticos en Industrias de productos químicos"
+  },
+  {
+    "id": 16100,
+    "nombre": "Eficiencia energética en Industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 16500,
+    "nombre": "Sustitución de energéticos en Industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 16900,
+    "nombre": "Mejora de procesos en Industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 17300,
+    "nombre": "Nuevas tecnologías en Industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 17700,
+    "nombre": "Eficiencia energética en Industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 18100,
+    "nombre": "Sustitución de energéticos en Industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 18500,
+    "nombre": "Mejora de procesos en Industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 18900,
+    "nombre": "Nuevas tecnologías en Industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 19300,
+    "nombre": "Eficiencia energética en Industrias de Minerales no metálicos"
+  },
+  {
+    "id": 19700,
+    "nombre": "Sustitución de energéticos en Industrias de Minerales no metálicos"
+  },
+  {
+    "id": 20100,
+    "nombre": "Eficiencia energética en Industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 20500,
+    "nombre": "Sustitución de energéticos en Industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 20900,
+    "nombre": "Mejora de procesos en Industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 21300,
+    "nombre": "Nuevas tecnologías en Industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 21700,
+    "nombre": "Eficiencia energética en Industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 22100,
+    "nombre": "Sustitución de energéticos en Industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 22500,
+    "nombre": "Mejora de procesos en Industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 22900,
+    "nombre": "Nuevas tecnologías en Industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 23300,
+    "nombre": "Eficiencia energética en Industrias de minería"
+  },
+  {
+    "id": 23700,
+    "nombre": "Sustitución de energéticos en Industrias de minería"
+  },
+  {
+    "id": 24100,
+    "nombre": "Eficiencia energética en Industrias de madera y productos de la madera"
+  },
+  {
+    "id": 24500,
+    "nombre": "Sustitución de energéticos en Industrias de madera y productos de la madera"
+  },
+  {
+    "id": 24900,
+    "nombre": "Eficiencia energética en Industrias de la Construcción"
+  },
+  {
+    "id": 25300,
+    "nombre": "Sustitución de energéticos en Industrias de la Construcción"
+  },
+  {
+    "id": 25700,
+    "nombre": "Eficiencia energética en Industrias de textiles y cueros"
+  },
+  {
+    "id": 26100,
+    "nombre": "Sustitución de energéticos en Industrias de textiles y cueros"
+  },
+  {
+    "id": 26500,
+    "nombre": "Eficiencia energética en otras industrias"
+  },
+  {
+    "id": 26900,
+    "nombre": "Sustitución de energéticos en otras industrias"
+  },
+  {
+    "id": 27300,
+    "nombre": "Eficiencia energética en sector comercial/institucional"
+  },
+  {
+    "id": 27700,
+    "nombre": "Sustitución de energéticos en sector comercial/institucional"
+  },
+  {
+    "id": 28100,
+    "nombre": "Mejora de procesos en sector comercial/institucional"
+  },
+  {
+    "id": 28500,
+    "nombre": "Eficiencia energética en sector residencial"
+  },
+  {
+    "id": 28900,
+    "nombre": "Sustitución de energéticos en sector residencial"
+  },
+  {
+    "id": 29300,
+    "nombre": "Eficiencia energética en sector agropecuario"
+  },
+  {
+    "id": 29700,
+    "nombre": "Sustitución de energéticos en sector agropecuario"
+  },
+  {
+    "id": 30100,
+    "nombre": "Nuevas tecnologías en sector agropecuario"
+  },
+  {
+    "id": 30500,
+    "nombre": "Eficiencia energética en Aviación civil"
+  },
+  {
+    "id": 30900,
+    "nombre": "Sustitución de energéticos en Aviación civil"
+  },
+  {
+    "id": 31300,
+    "nombre": "Eficiencia energética en Transporte terrestre"
+  },
+  {
+    "id": 31700,
+    "nombre": "Sustitución de energéticos en Transporte terrestre"
+  },
+  {
+    "id": 32100,
+    "nombre": "Mejora de procesos en Transporte terrestre"
+  },
+  {
+    "id": 32500,
+    "nombre": "Nuevas tecnologías en Transporte terrestre"
+  },
+  {
+    "id": 32900,
+    "nombre": "Eficiencia energética en Transporte férreo"
+  },
+  {
+    "id": 33300,
+    "nombre": "Sustitución de energéticos en Transporte férreo"
+  },
+  {
+    "id": 33700,
+    "nombre": "Eficiencia energética en Transporte marítimo y fluvial"
+  },
+  {
+    "id": 34100,
+    "nombre": "Sustitución de energéticos en Transporte marítimo y fluvial"
+  },
+  {
+    "id": 34500,
+    "nombre": "Eficiencia energética en Transporte terrestre público individual de pasajeros"
+  },
+  {
+    "id": 34900,
+    "nombre": "Sustitución de energéticos en Transporte terrestre público individual de pasajeros"
+  },
+  {
+    "id": 35300,
+    "nombre": "Nuevas tecnologías en Transporte terrestre público individual de pasajeros"
+  },
+  {
+    "id": 35700,
+    "nombre": "Eficiencia energética en Transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 36100,
+    "nombre": "Sustitución de energéticos en Transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 36500,
+    "nombre": "Nuevas tecnologías en Transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 36900,
+    "nombre": "Mejora de procesos en Transporte terrestre medios no motorizados"
+  },
+  {
+    "id": 37300,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros"
+  },
+  {
+    "id": 37700,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros"
+  },
+  {
+    "id": 38100,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros"
+  },
+  {
+    "id": 38500,
+    "nombre": "Eficiencia energética en transporte terrestre de carga"
+  },
+  {
+    "id": 38900,
+    "nombre": "Sustitución de energéticos en transporte terrestre de carga"
+  },
+  {
+    "id": 39300,
+    "nombre": "Nuevas tecnologías en transporte terrestre de carga"
+  },
+  {
+    "id": 39700,
+    "nombre": "Mejora de procesos en los que se genera emisiones fugitivas"
+  },
+  {
+    "id": 50100,
+    "nombre": "Cambio en patrones de comportamiento en eliminación de residuos sólidos"
+  },
+  {
+    "id": 50500,
+    "nombre": "Mejora de procesos en eliminación de residuos sólidos"
+  },
+  {
+    "id": 50900,
+    "nombre": "Nuevas tecnologías en eliminación de residuos sólidos"
+  },
+  {
+    "id": 51300,
+    "nombre": "Mejora de procesos en tratamiento biológico de los residuos sólidos"
+  },
+  {
+    "id": 51700,
+    "nombre": "Nuevas tecnologías en tratamiento biológico de los residuos sólidos"
+  },
+  {
+    "id": 52100,
+    "nombre": "Cambio en patrones de comportamiento en incineración abierta de residuos"
+  },
+  {
+    "id": 52500,
+    "nombre": "Eficiencia energética en incineración de residuos"
+  },
+  {
+    "id": 52900,
+    "nombre": "Sustitución de energéticos en incineración de residuos"
+  },
+  {
+    "id": 53300,
+    "nombre": "Mejora de procesos en incineración e incineración abierta de residuos"
+  },
+  {
+    "id": 53700,
+    "nombre": "Nuevas tecnologías en incineración de residuos"
+  },
+  {
+    "id": 54100,
+    "nombre": "Cambio en patrones de comportamiento en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 54500,
+    "nombre": "Mejora de procesos en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 54900,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 55300,
+    "nombre": "Mejora de procesos en tratamiento y eliminación de aguas residuales industriales"
+  },
+  {
+    "id": 55700,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales industriales"
+  },
+  {
+    "id": 40100,
+    "nombre": "Nuevas tecnologías de control emisiones fugitivas"
+  },
+  {
+    "id": 40500,
+    "nombre": "Mejora de procesos en industria de los minerales"
+  },
+  {
+    "id": 40900,
+    "nombre": "Nuevas tecnologías en industria de los minerales"
+  },
+  {
+    "id": 41300,
+    "nombre": "Mejora de procesos en industria química"
+  },
+  {
+    "id": 41700,
+    "nombre": "Nuevas tecnologías en industria química"
+  },
+  {
+    "id": 42100,
+    "nombre": "Mejora de procesos en industria de los metales"
+  },
+  {
+    "id": 42500,
+    "nombre": "Nuevas tecnologías en industria de los metales"
+  },
+  {
+    "id": 42900,
+    "nombre": "Mejora de procesos en uso de productos no energéticos de combustibles y solventes"
+  },
+  {
+    "id": 43300,
+    "nombre": "Nuevas tecnologías en uso de productos no energéticos de combustibles y solventes"
+  },
+  {
+    "id": 43700,
+    "nombre": "Mejora de procesos en industria electrónica"
+  },
+  {
+    "id": 44100,
+    "nombre": "Nuevas tecnologías en industria electrónica"
+  },
+  {
+    "id": 44500,
+    "nombre": "Mejora de procesos en uso de productos sustitutos SAO"
+  },
+  {
+    "id": 44900,
+    "nombre": "Nuevas tecnologías en uso de productos sustitutos SAO"
+  },
+  {
+    "id": 45300,
+    "nombre": "Cambio en patrones de comportamiento en la utilización de otros productos"
+  },
+  {
+    "id": 45700,
+    "nombre": "Mejora de procesos en manufactura de otros productos"
+  },
+  {
+    "id": 46100,
+    "nombre": "Nuevas tecnologías en manufactura y utilización de otros productos"
+  },
+  {
+    "id": 46500,
+    "nombre": "Mejora de procesos en otros procesos industriales"
+  },
+  {
+    "id": 46900,
+    "nombre": "Nuevas tecnologías en otros procesos industriales"
+  },
+  {
+    "id": 47300,
+    "nombre": "Cambio de modelos productivos en cultivos"
+  },
+  {
+    "id": 47700,
+    "nombre": "Mejoras en procesos de transformación y comercialización de productos agropecuarios"
+  },
+  {
+    "id": 48100,
+    "nombre": "Manejo y aprovechamiento de residuos agropecuarios"
+  },
+  {
+    "id": 48500,
+    "nombre": "Implementación de sistemas con árboles para producción agropecuaria"
+  },
+  {
+    "id": 48900,
+    "nombre": "Cambios en modelos productivos pecuarios"
+  },
+  {
+    "id": 49300,
+    "nombre": "Incremento de las reservas forestales de carbono"
+  },
+  {
+    "id": 49700,
+    "nombre": "Uso energético de la biomasa forestal"
+  },
+  {
+    "id": 922,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales domésticas"
+  },
+  {
+    "id": 923,
+    "nombre": "Nuevas tecnologías en tratamiento y eliminación de aguas residuales industriales"
+  },
+  {
+    "id": 924,
+    "nombre": "Reciclaje de residuos sólidos"
+  },
+  {
+    "id": 925,
+    "nombre": "Tratamiento biológico de residuos sólidos con gestión de biogás"
+  },
+  {
+    "id": 926,
+    "nombre": "Tratamiento biológico de residuos sólidos sin gestión de biogás"
+  },
+  {
+    "id": 927,
+    "nombre": "Tratamiento mecánico para la gestión de residuos sólidos"
+  },
+  {
+    "id": 928,
+    "nombre": "Tratamiento térmico de residuos sólidos"
+  },
+  {
+    "id": 929,
+    "nombre": "Aprovechamiento de metano (CBM - Gases Metano Asociados a Mantos de Carbón - Coal Bed Methane)"
+  },
+  {
+    "id": 930,
+    "nombre": "Aprovechamiento de metano (CMM - Coal Mine Methane - Gas explotado junto con la explotación\n del carbón)"
+  },
+  {
+    "id": 931,
+    "nombre": "Aprovechamiento de metano (VAM - Ventilation Air Methane - Metano capturado en el sistema de ventilación)"
+  },
+  {
+    "id": 932,
+    "nombre": "Captura y aprovechamiento de gas natural"
+  },
+  {
+    "id": 933,
+    "nombre": "Eficiencia energética en actividades de pesca"
+  },
+  {
+    "id": 934,
+    "nombre": "Eficiencia energética en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 935,
+    "nombre": "Eficiencia energética en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 936,
+    "nombre": "Eficiencia energética en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 937,
+    "nombre": "Eficiencia energética en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 938,
+    "nombre": "Eficiencia energética en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 939,
+    "nombre": "Eficiencia energética en industrias de la Construcción"
+  },
+  {
+    "id": 940,
+    "nombre": "Eficiencia energética en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 941,
+    "nombre": "Eficiencia energética en industrias de metales no ferrosos"
+  },
+  {
+    "id": 942,
+    "nombre": "Eficiencia energética en industrias de minerales no metálicos"
+  },
+  {
+    "id": 943,
+    "nombre": "Eficiencia energética en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 944,
+    "nombre": "Eficiencia energética en industrias de productos químicos"
+  },
+  {
+    "id": 945,
+    "nombre": "Eficiencia energética en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 946,
+    "nombre": "Eficiencia energética en industrias de textiles y cueros"
+  },
+  {
+    "id": 947,
+    "nombre": "Eficiencia energética en industrias hierro y acero"
+  },
+  {
+    "id": 948,
+    "nombre": "Eficiencia energética en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 949,
+    "nombre": "Eficiencia energética en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 950,
+    "nombre": "Eficiencia energética en operaciones aéreas"
+  },
+  {
+    "id": 951,
+    "nombre": "Eficiencia energética en operaciones de minería de carbón"
+  },
+  {
+    "id": 952,
+    "nombre": "Eficiencia energética en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 953,
+    "nombre": "Eficiencia energética en otras actividades fluviales"
+  },
+  {
+    "id": 954,
+    "nombre": "Eficiencia energética en otras industrias"
+  },
+  {
+    "id": 955,
+    "nombre": "Eficiencia energética en producción de coque"
+  },
+  {
+    "id": 956,
+    "nombre": "Eficiencia energética en producción de electricidad y calor"
+  },
+  {
+    "id": 957,
+    "nombre": "Eficiencia energética en refinación de petróleo"
+  },
+  {
+    "id": 958,
+    "nombre": "Eficiencia energética en sector agropecuario"
+  },
+  {
+    "id": 959,
+    "nombre": "Eficiencia energética en sector comercial"
+  },
+  {
+    "id": 960,
+    "nombre": "Eficiencia energética en sector institucional"
+  },
+  {
+    "id": 961,
+    "nombre": "Eficiencia energética en sector residencial"
+  },
+  {
+    "id": 962,
+    "nombre": "Eficiencia energética en transporte férreo"
+  },
+  {
+    "id": 963,
+    "nombre": "Eficiencia energética en transporte marítimo y fluvial"
+  },
+  {
+    "id": 964,
+    "nombre": "Eficiencia energética en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 965,
+    "nombre": "Eficiencia energética en transporte terrestre de carga"
+  },
+  {
+    "id": 966,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 967,
+    "nombre": "Eficiencia energética en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 968,
+    "nombre": "Eficiencia energética en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 969,
+    "nombre": "Eficiencia energética en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 970,
+    "nombre": "Generación de electricidad renovable - no convencional"
+  },
+  {
+    "id": 971,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Automóviles)"
+  },
+  {
+    "id": 972,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (Camiones para servicio pesado y autobuses)"
+  },
+  {
+    "id": 973,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 974,
+    "nombre": "Implementación de medios no motorizados en transporte terrestre (motocicletas)"
+  },
+  {
+    "id": 975,
+    "nombre": "Mejora de procesos en refinación de petróleo"
+  },
+  {
+    "id": 976,
+    "nombre": "Nuevas tecnologías en operaciones aéreas"
+  },
+  {
+    "id": 977,
+    "nombre": "Nuevas tecnologías en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 978,
+    "nombre": "Nuevas tecnologías en transporte terrestre de carga"
+  },
+  {
+    "id": 979,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 980,
+    "nombre": "Nuevas tecnologías en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 981,
+    "nombre": "Nuevas tecnologías en transporte terrestre publico colectivo de pasajeros"
+  },
+  {
+    "id": 982,
+    "nombre": "Nuevas tecnologías en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 983,
+    "nombre": "Sustitución de combustibles en operaciones de minería de carbón"
+  },
+  {
+    "id": 984,
+    "nombre": "Sustitución de combustibles en operaciones de producción de hidrocarburos"
+  },
+  {
+    "id": 985,
+    "nombre": "Sustitución de energéticos en actividades de transporte de líquidos por tuberías"
+  },
+  {
+    "id": 986,
+    "nombre": "Sustitución de energéticos en actividades de transporte de oleoductos, poliductos, gasoductos"
+  },
+  {
+    "id": 987,
+    "nombre": "Sustitución de energéticos en actividades de transporte todo terreno (vehículos fuera de ruta)"
+  },
+  {
+    "id": 988,
+    "nombre": "Sustitución de energéticos en actividades de vehículos todo terreno y maquinaria en sector agropecuario"
+  },
+  {
+    "id": 989,
+    "nombre": "Sustitución de energéticos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 990,
+    "nombre": "Sustitución de energéticos en industrias de la Construcción"
+  },
+  {
+    "id": 991,
+    "nombre": "Sustitución de energéticos en industrias de madera y productos de la madera"
+  },
+  {
+    "id": 992,
+    "nombre": "Sustitución de energéticos en industrias de metales no ferrosos"
+  },
+  {
+    "id": 993,
+    "nombre": "Sustitución de energéticos en industrias de minerales no metálicos"
+  },
+  {
+    "id": 994,
+    "nombre": "Sustitución de energéticos en industrias de minería (minerales diferentes de carbón)"
+  },
+  {
+    "id": 995,
+    "nombre": "Sustitución de energéticos en industrias de productos químicos"
+  },
+  {
+    "id": 996,
+    "nombre": "Sustitución de energéticos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 997,
+    "nombre": "Sustitución de energéticos en industrias de textiles y cueros"
+  },
+  {
+    "id": 998,
+    "nombre": "Sustitución de energéticos en industrias hierro y acero"
+  },
+  {
+    "id": 999,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de equipos de transporte"
+  },
+  {
+    "id": 1000,
+    "nombre": "Sustitución de energéticos en industrias manufactureras de maquinaria"
+  },
+  {
+    "id": 1001,
+    "nombre": "Sustitución de energéticos en operaciones aéreas"
+  },
+  {
+    "id": 1002,
+    "nombre": "Sustitución de energéticos en otras industrias"
+  },
+  {
+    "id": 1003,
+    "nombre": "Sustitución de energéticos en producción de electricidad y calor"
+  },
+  {
+    "id": 1004,
+    "nombre": "Sustitución de energéticos en refinación de petróleo"
+  },
+  {
+    "id": 1005,
+    "nombre": "Sustitución de energéticos en sector agropecuario"
+  },
+  {
+    "id": 1006,
+    "nombre": "Sustitución de energéticos en sector comercial"
+  },
+  {
+    "id": 1007,
+    "nombre": "Sustitución de energéticos en sector institucional"
+  },
+  {
+    "id": 1008,
+    "nombre": "Sustitución de energéticos en sector residencial"
+  },
+  {
+    "id": 1009,
+    "nombre": "Sustitución de energéticos en transporte férreo"
+  },
+  {
+    "id": 1010,
+    "nombre": "Sustitución de energéticos en transporte marítimo y fluvial"
+  },
+  {
+    "id": 1011,
+    "nombre": "Sustitución de energéticos en transporte terrestre (camperos y camionetas)"
+  },
+  {
+    "id": 1012,
+    "nombre": "Sustitución de energéticos en transporte terrestre de carga"
+  },
+  {
+    "id": 1013,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (automóviles)"
+  },
+  {
+    "id": 1014,
+    "nombre": "Sustitución de energéticos en transporte terrestre privado de pasajeros (motocicletas)"
+  },
+  {
+    "id": 1015,
+    "nombre": "Sustitución de energéticos en transporte terrestre público colectivo de pasajeros"
+  },
+  {
+    "id": 1016,
+    "nombre": "Sustitución de energéticos en transporte terrestre público individual de pasajeros (taxis)"
+  },
+  {
+    "id": 1017,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Comercial"
+  },
+  {
+    "id": 1018,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Industria manufacturera"
+  },
+  {
+    "id": 1019,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Móvil"
+  },
+  {
+    "id": 1020,
+    "nombre": "Gestión adecuada de equipos de refrigeración y aire acondicionado al final de su vida útil - Residencial"
+  },
+  {
+    "id": 1021,
+    "nombre": "Gestión adecuada de equipos eléctricos al final de su vida útil - Eliminación de equipos eléctricos"
+  },
+  {
+    "id": 1022,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aceleradores"
+  },
+  {
+    "id": 1023,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Aplicaciones militares"
+  },
+  {
+    "id": 1024,
+    "nombre": "Gestión adecuada de equipos que contienen SF6 y PFC al final de su vida útil - Otros"
+  },
+  {
+    "id": 1025,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Aerosoles"
+  },
+  {
+    "id": 1026,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Agentes espumantes"
+  },
+  {
+    "id": 1027,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Otras aplicaciones"
+  },
+  {
+    "id": 1028,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Protección contra incendios"
+  },
+  {
+    "id": 1029,
+    "nombre": "Gestión adecuada de HFC y PFC al final de su vida útil, en otras aplicaciones - Solventes"
+  },
+  {
+    "id": 1030,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de cera de parafina"
+  },
+  {
+    "id": 1031,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de lubricantes"
+  },
+  {
+    "id": 1032,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Otros"
+  },
+  {
+    "id": 1033,
+    "nombre": "Mejora de procesos de producción de productos no energéticos de combustibles y de solventes - Uso de solventes"
+  },
+  {
+    "id": 1034,
+    "nombre": "Mejora de procesos en industria de los metales - Otros"
+  },
+  {
+    "id": 1035,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 1036,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 1037,
+    "nombre": "Mejora de procesos en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 1038,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros"
+  },
+  {
+    "id": 1039,
+    "nombre": "Mejora de procesos en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 1040,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 1041,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 1042,
+    "nombre": "Mejora de procesos en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 1043,
+    "nombre": "Mejora de procesos en industria química - Dicloruro de etileno y monómero cloruro de vinilo"
+  },
+  {
+    "id": 1044,
+    "nombre": "Mejora de procesos en industria química - Metanol"
+  },
+  {
+    "id": 1045,
+    "nombre": "Mejora de procesos en industria química - Negro de humo"
+  },
+  {
+    "id": 1046,
+    "nombre": "Mejora de procesos en industria química - Otros"
+  },
+  {
+    "id": 1047,
+    "nombre": "Mejora de procesos en industria química - Producción de ácido nítrico"
+  },
+  {
+    "id": 1048,
+    "nombre": "Mejora de procesos en industria química - Producción de amoníaco"
+  },
+  {
+    "id": 1049,
+    "nombre": "Mejora de procesos en industria química - Producción de ceniza de sosa"
+  },
+  {
+    "id": 1050,
+    "nombre": "Mejora de procesos en industrias de alimentos, bebidas y tabaco"
+  },
+  {
+    "id": 1051,
+    "nombre": "Mejora de procesos en industrias de pulpa, papel e imprenta"
+  },
+  {
+    "id": 1052,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Manufactura de equipos eléctricos"
+  },
+  {
+    "id": 1053,
+    "nombre": "Mejora de procesos en manufactura de otros productos - Otros"
+  },
+  {
+    "id": 1054,
+    "nombre": "Mejora de procesos en otros procesos industriales"
+  },
+  {
+    "id": 1055,
+    "nombre": "Nuevas tecnologías en industria de los metales - Otros"
+  },
+  {
+    "id": 1056,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de ferroaleaciones"
+  },
+  {
+    "id": 1057,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de hierro y acero"
+  },
+  {
+    "id": 1058,
+    "nombre": "Nuevas tecnologías en industria de los metales - Producción de plomo"
+  },
+  {
+    "id": 1059,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros"
+  },
+  {
+    "id": 1060,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Otros usos de la ceniza de sosa"
+  },
+  {
+    "id": 1061,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cal"
+  },
+  {
+    "id": 1062,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de cemento"
+  },
+  {
+    "id": 1063,
+    "nombre": "Nuevas tecnologías en industria de los minerales - Producción de vidrio"
+  },
+  {
+    "id": 1064,
+    "nombre": "Nuevas tecnologías en industria química - Etileno"
+  },
+  {"id":3771,"nombre":"Aire comprimido"},
+  {"id":3772,"nombre":"Autogeneración"},
+  {"id":3773,"nombre":"Automatización"},
+  {"id":3774,"nombre":"Calor indirecto"},
+  {"id":3775,"nombre":"Climatización"},
+  {"id":3776,"nombre":"Fuerza Motriz"},
+  {"id":3777,"nombre":"Iluminación"},
+  {"id":3778,"nombre":"Refrigeración"}
+]

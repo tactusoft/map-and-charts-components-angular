@@ -1,0 +1,16 @@
+{
+  "uniformAreas": 18,
+  "sections": 15,
+  "monitoringNetwork": 28,
+  "WTP": 13,
+  "transfers": 12,
+  "otherInfrastructure": 14,
+  "floodingThreat": 1,
+  "rainfallThreat": 0,
+  "landslidesThreat": 2,
+  "floodingRisk": 4,
+  "rainfallRisk": 3,
+  "landslidesRisk": 5,
+  "EnvironmentalZonification": 20,
+  "subbasin": 30
+}

@@ -1,0 +1,771 @@
+{
+  "topics": {
+    "BASE": {
+      "mapType": {
+        "type": "MAP",
+        "layersUrl": [
+          {
+            "id": "POMCAS",
+            "title": "POMCAS",
+            "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Deforestacion_POMCAS/FeatureServer/0",
+            "visible": true,
+            "displayField": "Zonif_Ambi",
+            "fields": ["Munpio_MpN", "SUM_AREA"],
+            "popupContent": ""
+          },
+          {
+            "id": "RUNAP",
+            "title": "RUNAP",
+            "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/arcgis/rest/services/Deforestacion_RUNAP/FeatureServer/0",
+            "visible": false,
+            "displayField": "nombre",
+            "fields": ["*"],
+            "popupContent": ""
+          },
+          {
+            "id": "RESERVAS_LEY_SEGUNDA",
+            "title": "Reservas Ley Segunda",
+            "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/arcgis/rest/services/11_Deforestacion_Reservas_Ley2/FeatureServer/0",
+            "visible": true,
+            "displayField": "Nombre_Res",
+            "fields": ["*"],
+            "popupContent": ""
+          },
+          {
+            "id": "DISTRITOS_TERMICOS",
+            "title": "Distritos termicos",
+            "url": "https://itim-engineering.webgis1.com/geoserver/distritos_termicos/wms",
+            "visible": true
+          },
+          {
+            "id": "CICATRICES_QUEMA",
+            "title": "Cicatrices de Quema",
+            "url": "https://gis.siatac.co/arcgis/rest/services/MAI_SIMAAC/Ciq_Region_100K/MapServer",
+            "sublayers": [
+              {
+                "id": 0,
+                "visible": true,
+                "popupContent": "Cicatriz de quema identificada en el periodo {periodo_mes} sobre el tipo de cobertura {cobertura}.",
+                "displayField": "categoria",
+                "fields": ["*"]
+              },
+              {
+                "id": 1,
+                "visible": true,
+                "popupContent": "",
+                "displayField": "path_row",
+                "fields": ["*"]
+              }
+            ]
+          }
+        ]
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Imprimir",
+          "icon": "print",
+          "dataPanelId": "print",
+          "component": "esri-print-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar Servicios",
+          "icon": "add-layer",
+          "dataPanelId": "addLayers",
+          "component": "add-services-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Galería de Servicios",
+          "icon": "overview",
+          "dataPanelId": "gallery",
+          "component": "gallery-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros por Atributos",
+          "icon": "selected-items-filter",
+          "dataPanelId": "intersect",
+          "component": "intersect-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros Espaciales",
+          "icon": "selection-filter",
+          "dataPanelId": "spatial-filters",
+          "component": "app-spatial-filters",
+          "config": {},
+          "active": false
+        }
+      ]
+    },
+    "CONSERVAR_PAGA": {
+      "referer": "https://test-conservar-paga-admin.minambiente.gov.co",
+      "mapType": {
+        "type": "MAP",
+        "layersUrl": [
+          {
+            "id": "AREAS_PRIORIZADAS",
+            "title": "Áreas Priorizadas",
+            "url": "https://geo.minambiente.gov.co/server/rest/services/NVS_Analisis_Economico_Sostenibilidad/AES_Conservar_Paga_QA_Edi/FeatureServer/0",
+            "visible": true,
+            "displayField": "OBJECTID",
+            "fields": ["*"],
+            "popupContent": "",
+            "type": "feature"
+          },
+          {
+            "id": "POMCAS",
+            "title": "POMCAS",
+            "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Deforestacion_POMCAS/FeatureServer/0",
+            "visible": true,
+            "displayField": "Zonif_Ambi",
+            "fields": ["Munpio_MpN", "SUM_AREA"],
+            "popupContent": ""
+          }
+        ]
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Imprimir",
+          "icon": "print",
+          "dataPanelId": "print",
+          "component": "esri-print-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar Servicios",
+          "icon": "add-layer",
+          "dataPanelId": "addLayers",
+          "component": "add-services-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Galería de Servicios",
+          "icon": "overview",
+          "dataPanelId": "gallery",
+          "component": "gallery-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros por Atributos",
+          "icon": "selected-items-filter",
+          "dataPanelId": "intersect",
+          "component": "intersect-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Extraer Datos",
+          "icon": "export",
+          "dataPanelId": "CmpExtactDataComponent",
+          "component": "cmp-extact-data-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Conservar Paga",
+          "icon": "edit-geometry",
+          "dataPanelId": "ConservarPagaComponent",
+          "component": "conservar-paga-component",
+          "config": {},
+          "active": true
+        },
+        {
+          "heading": "Filtros Espaciales",
+          "icon": "selection-filter",
+          "dataPanelId": "spatial-filters",
+          "component": "app-spatial-filters",
+          "config": {},
+          "active": false
+        }
+      ],
+      "urlEndPoint": "https://test-conservar-paga-admin.minambiente.gov.co/conservar-paga"
+    },
+    "SIRH": {
+      "expanded": true,
+      "mapType": {
+        "type": "WEB_MAP",
+        "itemId": "9595eaf45a384bd2a3ed1730007530d4",
+        "layersUrl": []
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Imprimir",
+          "icon": "print",
+          "dataPanelId": "print",
+          "component": "esri-print-component",
+          "config": {
+            "title": "Sistema de Información de Recurso Hídrico – SIRH",
+            "author": "Ministerio de Ambiente y Desarrollo Sostenible",
+            "copyright": "Dirección de Gestión Integral del Recurso Hídrico"
+          },
+          "active": false
+        },
+        {
+          "heading": "Comparar Capas",
+          "icon": "compare",
+          "dataPanelId": "swipe",
+          "component": "geovisor-swipe-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar Servicios",
+          "icon": "add-layer",
+          "dataPanelId": "addLayers",
+          "component": "add-services-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros por Atributos",
+          "icon": "selected-items-filter",
+          "dataPanelId": "intersect",
+          "component": "intersect-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros Espaciales",
+          "icon": "selection-filter",
+          "dataPanelId": "spatial-filters",
+          "component": "app-spatial-filters",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Búsqueda",
+          "icon": "search",
+          "dataPanelId": "searchWidget",
+          "component": "esri-search-widget",
+          "sources": [
+            {
+              "layerId": "Departamentos",
+              "searchFields": ["DeNombre"],
+              "displayField": "DeNombre",
+              "name": "Departamentos",
+              "placeholder": "Ej: Meta"
+            },
+            {
+              "layerId": "Municipios",
+              "searchFields": ["MpNombre"],
+              "displayField": "MpNombre",
+              "name": "Municipios",
+              "placeholder": "Ej: Bogotá"
+            },
+            {
+              "layerId": "Límite de Autoridades Ambientales",
+              "searchFields": ["nombre", "car"],
+              "displayField": "nombre",
+              "name": "Límite de Autoridades Ambientales",
+              "placeholder": "Ej: CRA"
+            },
+            {
+              "layerId": "Estado de los POMCA",
+              "searchFields": ["nomah", "nomzh", "nomszh", "nom_pomca"],
+              "displayField": "nom_pomca",
+              "name": "Estado de los POMCA",
+              "placeholder": "Ej: Orinoco"
+            }
+          ]
+        }
+      ]
+    },
+    "SIRH_VALIDATOR": {
+      "expanded": true,
+      "mapType": {
+        "type": "WEB_MAP",
+        "itemId": "807888c4e93e4f7180036d1feb911f45",
+        "layersUrl": []
+      },
+      "widgets": [
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar capa",
+          "icon": "add-layer",
+          "dataPanelId": "SirhValidatorComponent",
+          "component": "sirh-validator-component",
+          "config": {},
+          "active": true
+        }
+      ]
+    },
+    "PORH": {
+      "expanded": true,
+      "mapType": {
+        "type": "WEB_MAP",
+        "itemId": "b9b0d216f3704b5db7944b2097650dbc",
+        "layersUrl": []
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Imprimir",
+          "icon": "print",
+          "dataPanelId": "print",
+          "component": "esri-print-component",
+          "config": {
+            "title": "Sistema de Información de Recurso Hídrico – SIRH",
+            "author": "Ministerio de Ambiente y Desarrollo Sostenible",
+            "copyright": "Dirección de Gestión Integral del Recurso Hídrico"
+          },
+          "active": false
+        },
+        {
+          "heading": "Comparar Capas",
+          "icon": "compare",
+          "dataPanelId": "swipe",
+          "component": "geovisor-swipe-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar Servicios",
+          "icon": "add-layer",
+          "dataPanelId": "addLayers",
+          "component": "add-services-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros por Atributos",
+          "icon": "selected-items-filter",
+          "dataPanelId": "intersect",
+          "component": "intersect-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros Espaciales",
+          "icon": "selection-filter",
+          "dataPanelId": "spatial-filters",
+          "component": "app-spatial-filters",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros PORH",
+          "icon": "content-minimal",
+          "dataPanelId": "normal-filters",
+          "component": "app-porh-filters",
+          "config": {},
+          "active": false
+        }
+      ]
+    },
+    "VENTANILLA_MINERA": {
+      "mapType": {
+        "type": "WEB_MAP",
+        "itemId": "553a7765facc46d0816b4a7657a4773c",
+        "layersUrl": [
+          {
+            "id": "VENTANILLA_MINERA",
+            "title": "Ventanilla Minera",
+            "url": "https://geo.minambiente.gov.co/server/rest/services/PNA_Politica_Normalizacion_Amb/PNA_Ventanilla_Minera_Lec/MapServer",
+            "visible": true,
+            "sublayers": [
+              {
+                "id": 1,
+                "displayField": "categoria_vm",
+                "fields": ["*"]
+              },
+              {
+                "id": 3,
+                "displayField": "categoria_vm",
+                "fields": ["*"]
+              }
+            ]
+          }
+        ]
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Imprimir",
+          "icon": "print",
+          "dataPanelId": "print",
+          "component": "esri-print-component",
+          "config": {
+            "title": "Sistema de Información de Recurso Hídrico – SIRH",
+            "author": "Ministerio de Ambiente y Desarrollo Sostenible",
+            "copyright": "Dirección de Gestión Integral del Recurso Hídrico"
+          },
+          "active": false
+        },
+        {
+          "heading": "Comparar Capas",
+          "icon": "compare",
+          "dataPanelId": "swipe",
+          "component": "geovisor-swipe-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar Servicios",
+          "icon": "add-layer",
+          "dataPanelId": "addLayers",
+          "component": "add-services-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros por Atributos",
+          "icon": "selected-items-filter",
+          "dataPanelId": "intersect",
+          "component": "intersect-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros Espaciales",
+          "icon": "selection-filter",
+          "dataPanelId": "spatial-filters",
+          "component": "app-spatial-filters",
+          "config": {},
+          "active": false
+        }
+      ]
+    },
+    "MAPA_DIGITAL_ARCHIVOS": {
+      "mapType": {
+        "type": "WEB_MAP",
+        "itemId": "616227ad75a6436b83f65144e4142c94"
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Imprimir",
+          "icon": "print",
+          "dataPanelId": "print",
+          "component": "esri-print-component",
+          "config": {
+            "title": "Sistema de Información de Recurso Hídrico – SIRH",
+            "author": "Ministerio de Ambiente y Desarrollo Sostenible",
+            "copyright": "Dirección de Gestión Integral del Recurso Hídrico"
+          },
+          "active": false
+        },
+        {
+          "heading": "Comparar Capas",
+          "icon": "compare",
+          "dataPanelId": "swipe",
+          "component": "geovisor-swipe-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Agregar Servicios",
+          "icon": "add-layer",
+          "dataPanelId": "addLayers",
+          "component": "add-services-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros por Atributos",
+          "icon": "selected-items-filter",
+          "dataPanelId": "intersect",
+          "component": "intersect-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Filtros Espaciales",
+          "icon": "selection-filter",
+          "dataPanelId": "spatial-filters",
+          "component": "app-spatial-filters",
+          "config": {},
+          "active": false
+        }
+      ]
+    },
+    "REGISTRO_SOLICITUDES": {
+      "referer": "https://test-registro-solicitudes-ambientales.minambiente.gov.co",
+      "mapType": {
+        "type": "WEB_MAP",
+        "itemId": "de2b481b0bc14794939203723f6fa644",
+        "layersUrl": [],
+        "layersToIntersect": [
+          {
+            "id": "INICIATIVAS",
+            "title": "Iniciativas del proyecto de RENARE",
+            "url": "https://geo.minambiente.gov.co/server/rest/services/CC_Mitigacion_Cambio_Climatico/MCC_Renare_QA_Edi/FeatureServer",
+            "visible": true,
+            "displayField": "OBJECTID",
+            "fields": ["*"],
+            "popupContent": "",
+            "type": "feature",
+            "layersId": [
+              {
+                "id": "1",
+                "name": "INICIATIVAS_IMPLEMENTACION",
+                "title": "Iniciativas en fase de implementación"
+              },
+              {
+                "id": "2",
+                "name": "INICIATIVAS_FORMULACION",
+                "title": "Iniciativas en fase de formulación"
+              },
+              {
+                "id": "3",
+                "name": "INICIATIVAS_FACTIBILIDAD",
+                "title": "Iniciativas en fase de factibilidad"
+              }
+            ]
+          },
+          {
+            "id": "RUNAP",
+            "title": "RUNAP",
+            "url": "https://mapas.parquesnacionales.gov.co/arcgis/rest/services/pnn/runap/FeatureServer",
+            "visible": true,
+            "displayField": "OBJECTID",
+            "fields": ["*"],
+            "type": "feature",
+            "layersId": [
+              {
+                "id": "0",
+                "name": "RUNAP",
+                "title": "RUNAP"
+              }
+            ]
+          }
+        ]
+      },
+      "widgets": [
+        {
+          "heading": "Lista de Capas",
+          "icon": "layers",
+          "dataPanelId": "layers",
+          "component": "esri-layerlist-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Leyenda",
+          "icon": "legend",
+          "dataPanelId": "legend",
+          "component": "esri-legend-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Mapas Base",
+          "icon": "basemap",
+          "dataPanelId": "basemap",
+          "component": "esri-basemap-component",
+          "config": {},
+          "active": false
+        },
+        {
+          "heading": "Traslape",
+          "icon": "edit-geometry",
+          "dataPanelId": "CmpTraslapeComponent",
+          "component": "cmp-traslape-component",
+          "config": {},
+          "active": true
+        }
+      ],
+      "urlEndPoint": "https://test-gestion-solicitudes-api.minambiente.gov.co"
+    }
+  },
+  "settings": {
+    "base_services": [
+      {
+        "id": "REGIONES",
+        "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Regiones_Naturales/FeatureServer/0"
+      },
+      {
+        "id": "BIOMAS",
+        "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Limites_Biomas/FeatureServer/0"
+      },
+      {
+        "id": "DEPARTAMENTOS",
+        "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Departamentos_Colombia/FeatureServer/0"
+      },
+      {
+        "id": "CAR",
+        "url": "https://geo.minambiente.gov.co/server/rest/services/Ordenamiento/MapServer/1"
+      },
+      {
+        "id": "MUNICIPIOS",
+        "url": "https://services6.arcgis.com/hxAwRYAu9QHliJ8T/ArcGIS/rest/services/Municipios_Colombia/FeatureServer/0"
+      },
+      {
+        "id": "ECOREGIONES",
+        "url": "https://services6.arcgis.com/6mG8TDe34lspoMdn/arcgis/rest/services/Ecorregion_Colombiana/FeatureServer/0"
+      },
+      {
+        "id": "URL_SERVER",
+        "url": "https://geo.minambiente.gov.co/server"
+      },
+      {
+        "id": "URL_PORTAL",
+        "url": "https://geo.minambiente.gov.co/portal"
+      }
+    ]
+  }
+}

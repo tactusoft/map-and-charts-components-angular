@@ -1,0 +1,76 @@
+.calcite-chip {
+  --calcite-ui-foreground-2: var(--calcite-ui-brand);
+  --calcite-ui-text-1: white;
+  margin-inline-end: .75rem;
+}
+
+calcite-card {
+  cursor: pointer;
+}
+
+
+.thumbnail-container{
+    height: 10em;
+    width:  100%;
+    display: flex;
+    padding: 0 0.5em 0 0;
+}
+
+.thumbnail-container-img {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover; /* Cubre el contenedor sin deformar */
+}
+
+.content-card{
+  display: flex;
+      flex-direction: column;
+      gap: 0.25em;
+      padding: 0.5em 0;
+}
+
+.heading{
+
+  margin: 0px;
+    font-size: var(--calcite-font-size--1);
+    line-height: 1.375;
+    font-weight: var(--calcite-font-weight-medium);
+    color: var(--calcite-color-text-1);
+}
+
+.description{
+
+  margin: 0px;
+    margin-block-start: 0.125rem;
+    font-size: var(--calcite-font-size--2);
+    line-height: 1.375;
+    font-weight: var(--calcite-font-weight-normal);
+    color: var(--calcite-color-text-2);
+    display: -webkit-box;
+  -webkit-line-clamp: 3; /* Número de líneas antes de mostrar "..." */
+  line-clamp: 4; /* Número de líneas antes de mostrar "..." */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.footer-start{
+  align-self: stretch;
+  border: 1px solid #a0ca87;
+}
+
+.custom-card{
+  margin-bottom: 1em;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  border: 1px solid #dfdfdf;
+  min-height: 10em;
+  max-height: 12em;
+}
+
+calcite-button::part(button) {
+  background-color: red !important;
+}
+

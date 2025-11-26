@@ -1,0 +1,90 @@
+<calcite-loader></calcite-loader>
+
+<calcite-shell content-behind hidden>
+  <calcite-shell-panel slot="panel-start" display-mode="float">
+    <calcite-action-bar slot="action-bar" [expanded]="topic === 'SIRH'">
+      <div class="col-xs-12">
+        <div class="calcite-web">
+          <div class="card-base card-wide">
+            <div class="card-wide-image-wrap">
+              <img id="logo-img" alt="Ambiente"
+                [class]="topic === 'SIRH' ? 'calcite-logo-expanded' : 'calcite-logo-ppal'"
+                src="https://dev-cdn.minambiente.gov.co/geovisor-cima/v1/assets/images/Ambiente_v1.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <calcite-action *ngFor="let widget of widgets()" [data-action-id]="widget.dataPanelId" [icon]="widget.icon"
+        [text]="widget.heading" (click)="handleActionBarClick($event)" [id]="widget.dataPanelId"
+        class="button-menu"></calcite-action>
+      <calcite-tooltip *ngFor="let widget of widgets()" [label]="widget.heading"
+        [referenceElement]="widget.dataPanelId">
+        <span>{{ widget.heading }}</span>
+      </calcite-tooltip>
+    </calcite-action-bar>
+
+    <ng-container *ngFor="let panel of widgets()">
+      <calcite-panel [heading]="panel.heading" [attr.data-panel-id]="panel.dataPanelId"
+        [hidden]="!isActive(panel.dataPanelId)" height-scale="l">
+        <ng-container [ngSwitch]="panel.component">
+          <esri-layerlist-component *ngSwitchCase="'esri-layerlist-component'"></esri-layerlist-component>
+          <esri-legend-component *ngSwitchCase="'esri-legend-component'"></esri-legend-component>
+          <esri-basemap-component *ngSwitchCase="'esri-basemap-component'"></esri-basemap-component>
+          <esri-print-component *ngSwitchCase="'esri-print-component'"></esri-print-component>
+          <add-services-component *ngSwitchCase="'add-services-component'"></add-services-component>
+          <geovisor-swipe-component *ngSwitchCase="'geovisor-swipe-component'"></geovisor-swipe-component>
+          <gallery-component *ngSwitchCase="'gallery-component'"></gallery-component>
+          <ambient-gallery-component *ngSwitchCase="'ambient-gallery-component'"></ambient-gallery-component>
+          <intersect-component *ngSwitchCase="'intersect-component'"></intersect-component>
+          <conservar-paga-component *ngSwitchCase="'conservar-paga-component'"></conservar-paga-component>
+          <app-spatial-filters *ngSwitchCase="'app-spatial-filters'"></app-spatial-filters>
+          <app-porh-filters *ngSwitchCase="'app-porh-filters'"></app-porh-filters>
+          <edit-conservar-paga *ngSwitchCase="'edit-conservar-paga'"></edit-conservar-paga>
+          <cmp-extact-data-component *ngSwitchCase="'cmp-extact-data-component'"></cmp-extact-data-component>
+          <sirh-validator-component *ngSwitchCase="'sirh-validator-component'" [projectName]="projectName"
+            [layerNameToValidate]="layerNameToValidate" (onValidationFinished)=onValidationFinished($event)
+            (onValidationProgress)=onProgressOfValidation($event) (onFileSelected)=onFileLoaded($event)
+            (onNotification)=onNewNotification($event)></sirh-validator-component>
+          <ng-container *ngSwitchCase="'cmp-traslape-component'">
+            <cmp-traslape-component *ngIf="tokenService.token && mapReady" [idSolicitud]="idSolicitud"
+              [idTipoActividad]="idTipoActividad" [fechaInicialActividad]="fechaInicialActividad"
+              [fechaFinalActividad]="fechaFinalActividad" [tokenKeycloak]="tokenKeycloak"
+              [resultadoTraslape]="resultadoTraslape">
+            </cmp-traslape-component>
+          </ng-container>
+          <deforestacion-conservar-paga *ngSwitchCase="'deforestacion-conservar-paga'" />
+        </ng-container>
+      </calcite-panel>
+    </ng-container>
+
+  </calcite-shell-panel>
+
+  <div id="appContainer">
+    <div #mapViewNode id="viewDiv">
+      <div id="titleDiv" class="esri-widget">
+        <div id="titleText">Creado por: <b>la Oficina de Tecnología del Ministerio de Ambiente y desarrollo
+            sostenible</b></div>
+      </div>
+      <div id="swipeLabelLeft" class="swipe-label" style="display: none;">Capa Izquierda</div>
+      <div id="swipeLabelRight" class="swipe-label" style="display: none;">Capa Derecha</div>
+    </div>
+
+    <div #featureTableNode id="tableContainer" class="container-table hidden-table"></div>
+
+  </div>
+
+  <div id="measureDiv">
+    <button class="action-button esri-icon-measure-line" id="distanceButton" type="button"
+      title="Medir distancia entre 2 o más puntos" (click)="measurementClick($event, 'distance')"></button>
+    <button class="action-button esri-icon-measure-area" id="areaButton" type="button" title="Medir área"
+      (click)="measurementClick($event, 'area')"></button>
+    <button class="action-button esri-icon-trash" id="clearButton" type="button" title="Limpiar medidas"
+      (click)="measurementClick($event, 'clear')"></button>
+  </div>
+
+  <calcite-alert id="original-alert" [kind]="alertKind" icon [open]="alertOpen" label="Alerta Mapa">
+    <div slot="message" [innerHTML]="alertMessage"><!-- {{alertMessage}} --></div>
+  </calcite-alert>
+
+</calcite-shell>

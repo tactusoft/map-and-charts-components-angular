@@ -1,0 +1,54 @@
+<calcite-block open>
+  <calcite-label>
+    Seleccione una Capa:
+    <calcite-select label="Seleccione una Capa:" id="control-service" (calciteSelectChange)="onChangeService($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let layer of layers" [value]="layer.id" [label]="layer.title"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label>
+    Seleccione un atributo:
+    <calcite-select label="Seleccione un Atributo:" id="control-field" (calciteSelectChange)="onChangeField($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let field of fields" [value]="field.value" [label]="field.label"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label>
+    Seleccione un valor:
+    <calcite-select label="Seleccione un Valor:" id="control-value" (calciteSelectChange)="onChangeValue($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let val of values" [value]="val.value" [label]="val.label"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+</calcite-block>
+
+<calcite-block open>
+  <calcite-label>
+    Seleccione la Capa a Intersectar:
+    <calcite-select label="Seleccione una Capa:" id="control-layer-intersect" (calciteSelectChange)="onChangeIntesectLayers($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let layer of intersectLayers" [value]="layer.id" [label]="layer.title"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+</calcite-block>
+
+<calcite-block open>
+  <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    <calcite-label
+      style="text-align: center; font-size: 18px !important; display: flex; align-items: center; height: 48px;">
+      <span>Se han filtrado <strong>{{count}}</strong> registros.</span>
+    </calcite-label>
+
+    <calcite-action *ngIf="count>0" icon="view-mixed" text="Mostrar filtrados" style=" height: 48px;"
+      (click)="showTable()">
+    </calcite-action>
+
+  </div>
+</calcite-block>
+
+<calcite-block open>
+  <div class="button-container">
+    <calcite-button (click)="onIntersectClick()" [loading]="loading" [disabled]="!this.feature">Buscar</calcite-button>
+    <calcite-button (click)="onClearClick()" [loading]="loading" kind="neutral">Limpiar</calcite-button>
+  </div>
+</calcite-block>

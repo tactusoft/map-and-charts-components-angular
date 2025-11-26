@@ -1,0 +1,14 @@
+<layer-manager-component
+    [validationFinished] = "validationFinished"
+    (onLayerUploaded) = onLayerUploaded($event)
+    (onFileLoaded) = onFileLoaded($event)
+    (onNotification) = onNewNotification($event)
+/>
+<shapefile-validator-component
+    *ngIf="layer"
+    [layerNameToValidate] = "layerNameToValidate"
+    [projectName] = "projectName"
+    [layer] = "layer"
+    (onValidated)="onValidated($event)"
+    (onValidationProgress)="onProgressOfValidation($event)"
+/>

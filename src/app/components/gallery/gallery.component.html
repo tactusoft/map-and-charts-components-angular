@@ -1,0 +1,34 @@
+<calcite-tabs layout="center">
+  <calcite-tab-nav slot="title-group">
+    <calcite-tab-title selected>
+      Buscar los Servicios
+    </calcite-tab-title>
+    <calcite-tab-title>Resultados</calcite-tab-title>
+  </calcite-tab-nav>
+  <calcite-tab selected>
+    <calcite-block open>
+      <calcite-label>
+        Palabra Clave:
+        <calcite-input-text placeholder="Palabra Clave" clearable="true"
+          (calciteInputTextInput)="onChangeKeyFormControl($event)"></calcite-input-text>
+      </calcite-label>
+    </calcite-block>
+    <calcite-block open>
+      <calcite-button (click)="onSearchClick()">Buscar</calcite-button>
+    </calcite-block>
+  </calcite-tab>
+  <calcite-tab>
+    <calcite-block id="result-block" open>
+      <calcite-list id="result-list">
+        <calcite-list-item *ngFor="let result of results" (calciteListItemSelect)="calciteListItemSelect($event)"
+          [label]="result.title" [description]="result.description" [id]="result.id">
+          <calcite-chip slot="content-end" scale="s" [label]="result.title" [value]="result.title">{{
+            result.service.type }}</calcite-chip>
+          <h4>{{ result.title }}</h4>
+          <p>{{ result.description }}</p>
+          <a *ngIf="result.source" [href]="result.source" target="_blank">Ir a la fuente</a>
+        </calcite-list-item>
+      </calcite-list>
+    </calcite-block>
+  </calcite-tab>
+</calcite-tabs>

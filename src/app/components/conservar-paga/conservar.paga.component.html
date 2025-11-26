@@ -1,0 +1,118 @@
+<calcite-tabs layout="center">
+
+  <calcite-tab-nav slot="title-group">
+    <calcite-tab-title selected>
+      Cargar
+    </calcite-tab-title>
+    <calcite-tab-title>Consultar</calcite-tab-title>
+  </calcite-tab-nav>
+
+  <calcite-tab selected>
+
+    <calcite-block open>
+      <div *ngIf="userRol == 'IDEAM'">
+        <calcite-label>
+          Debe cargar los polígonos con la información actualizada del archivo con id de carga {{idCargue}}
+        </calcite-label>
+        <br />
+      </div>
+
+      <calcite-label>
+        El archivo a cargar debe estar en formato .zip y no superar los 10 MB de tamaño.
+      </calcite-label>
+      <br />
+      <calcite-label>
+        <!-- SHAPEFILE: Cargue un archivo de extensión zip debe contener los
+        ficheros .shp, .shx, .dbf y .prj, el sistema de referencia debe ser
+        WGS84 (EPSG 4326). -->
+        Si contiene un Shapefile, debe incluir los archivos .shp, .shx, .dbf y .prj, y estar en el sistema de referencia
+        WGS84 (EPSG 4326).
+      </calcite-label>
+
+      <br />
+      <calcite-label>
+        Si es un Geodatabase (GDB), el .zip debe contener un directorio con extensión .gdb.
+      </calcite-label>
+      <br />
+      <!--       <calcite-label>
+        El nombre del archivo debe seguir este formato: núcleo de desarrollo forestal-AAAAMMDD (Ejemplo: MI-
+        20250305.zip o si es un GDB, MI-20250305.gdb.zip).
+      </calcite-label> -->
+    </calcite-block>
+
+    <calcite-block open>
+      <calcite-notice open kind="info" scale="s">
+        <div slot="message"> <b>Nota: </b>El nombre del archivo debe seguir este formato: <br />Núcleo de desarrollo
+          forestal-AAAAMMDD
+          <br />Ejemplo: <br />Si es un shapefile: <b>MI-20250305.zip</b> <br />Si es una GDB:
+          <b>MI-20250305.gdb.zip</b>).
+        </div>
+      </calcite-notice>
+    </calcite-block>
+
+    <calcite-block open>
+      <input type="file" id="fileInput" style="display: none;" (change)="onFileSelected($event)" accept=".zip" />
+      <div class="button-container">
+        <calcite-button appearance="solid" color="blue" (click)="triggerFileInput()" [loading]="loading"
+          [disabled]="disabledLoadButton || loading" icon-end="upload">Cargar
+          Archivo</calcite-button>
+        <calcite-button kind="inverse" (click)="openConfirmation = true"
+          [disabled]="disabledSaveButton">Guardar</calcite-button>
+      </div>
+    </calcite-block>
+
+
+    <calcite-modal aria-labelledby="modal-title" id="confirmation-modal" close-button-disabled docked escape-disabled
+      kind="info" [open]="openConfirmation" outside-close-disabled scale="s" width-scale="s" max-width="18rem">
+      <div slot="header" id="modal-title">
+        Confirmación
+      </div>
+      <div slot="content">
+        <calcite-label>
+          Desea guardar las geometrías cargadas del shapefile?
+        </calcite-label>
+      </div>
+
+      <calcite-button slot="secondary" width="full" appearance="outline" (click)="openConfirmation = false">
+        Cancelar
+      </calcite-button>
+      <calcite-button slot="primary" width="full" (click)="onSaveClick()">
+        Guardar
+      </calcite-button>
+    </calcite-modal>
+
+    <calcite-modal aria-labelledby="modal-title" id="confirmation-modal" close-button-disabled docked escape-disabled
+      kind="info" [open]="openProgress" outside-close-disabled scale="s" width-scale="s" max-width="18rem">
+      <div slot="content">
+        <calcite-progress value="0.8" text="Guardando geometrías.." type="indeterminate"></calcite-progress>
+      </div>
+    </calcite-modal>
+  </calcite-tab>
+
+  <calcite-tab>
+    <!-- consultar predio -->
+    <calcite-block open>
+      <calcite-label>
+        Consulta la info de un predio por su ID.
+      </calcite-label>
+    </calcite-block>
+
+    <calcite-block open>
+      <calcite-label>
+        ID del Predio:
+        <calcite-input-text placeholder="ID" clearable="true"
+          (calciteInputTextInput)="onChangeKeyFormControl($event)"></calcite-input-text>
+
+      </calcite-label>
+    </calcite-block>
+    <calcite-block open>
+      <div class="button-container">
+        <calcite-button (click)="fetchPredio()" [loading]="loading" [disabled]="loading">Buscar</calcite-button>
+        <calcite-button kind='neutral' (click)="clearSearch()" [loading]="loading"
+          [disabled]="loading">Limpiar</calcite-button>
+        <!-- (click)="onSearchClick()" -->
+      </div>
+    </calcite-block>
+  </calcite-tab>
+
+</calcite-tabs>

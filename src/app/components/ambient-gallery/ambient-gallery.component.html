@@ -1,0 +1,53 @@
+<calcite-tabs layout="center">
+  <calcite-tab-nav slot="title-group">
+    <calcite-tab-title selected>
+      Buscar los Servicios
+    </calcite-tab-title>
+
+  </calcite-tab-nav>
+  <calcite-tab selected>
+    <calcite-block [open]="!onResult">
+      <calcite-label>
+        Búsqueda
+        <calcite-input-text placeholder="Buscar" clearable
+          (calciteInputTextInput)="onBuscar($event.target.value)"></calcite-input-text>
+
+
+        <calcite-label style="--calcite-color-text-1: #aeaeae; --calcite-font-size--1: 0.85em; gap: 0;"  >
+          <p style="margin: 0;">Busque por área. </p>
+
+          <p style="margin: 0;">Ejemplo: Bosques, Recurso Hídrico, Secretaria General...</p>
+        </calcite-label>
+
+      </calcite-label>
+    </calcite-block>
+
+
+    <calcite-block open>
+
+      <calcite-flow>
+        <calcite-flow-item>
+          <div *ngIf="filteredLayers.length>0">
+            <section *ngFor="let layer of filteredLayers">
+
+              <calcite-card thumbnail-position="inline-start" style="margin-bottom: 0.5em;">
+                <img slot="thumbnail" class="thumbnail-container-img"
+                  src="https://geo.minambiente.gov.co/server/rest/services/BBSE_BRFN/BRFN_Reserva_Lec/MapServer/info/thumbnail"
+                  alt="">
+                <span slot="heading">{{layer.attributes.nombre}}</span>
+                <span class="description" slot="description">{{layer.attributes.descripcion}}</span>
+                <span slot="footer-start">
+                  <p *ngIf="layer.area"> Area {{layer.area?.attributes?.nombre}}</p>
+                </span>
+                <calcite-fab (click)="verDetalles(layer)" slot="footer-end" icon="chevron-right"
+                  kind="inverse"></calcite-fab>
+              </calcite-card>
+            </section>
+          </div>
+        </calcite-flow-item>
+      </calcite-flow>
+    </calcite-block>
+
+  </calcite-tab>
+
+</calcite-tabs>

@@ -1,0 +1,556 @@
+{
+  "PORH": {
+    "spatialReference": 9377,
+    "attributesNames": {
+      "uniformAreas": [
+        {
+          "type": "esriFieldTypeString",
+          "alias": "COD_APORH",
+          "name": "COD_APORH",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_APORH",
+          "name": "NOM_APORH",
+          "sqlType": "sqlTypeOther",
+          "length": 120,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_CA",
+          "name": "NOM_CA",
+          "sqlType": "sqlTypeOther",
+          "length": 120,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "sections": [
+        {
+          "type": "esriFieldTypeString",
+          "alias": "COD_TPORH",
+          "name": "COD_TPORH",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeDouble",
+          "alias": "Long_KM",
+          "name": "Long_KM",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_CA",
+          "name": "NOM_CA",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_TRAMO",
+          "name": "NOM_TRAMO",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "CLASE",
+          "name": "CLASE",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "monitoringNetwork": [
+        {
+          "type": "esriFieldTypeString",
+          "alias": "COD_TPORH",
+          "name": "COD_TPORH",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_CA",
+          "name": "NOM_CA",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_TRAMO",
+          "name": "NOM_TRAMO",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "WTP": [
+        {
+          "type": "esriFieldTypeString",
+          "alias": "ACUEDUCTO",
+          "name": "ACUEDUCTO",
+          "sqlType": "sqlTypeOther",
+          "length": 150,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Departamento",
+          "name": "DEPTO",
+          "sqlType": "sqlTypeOther",
+          "length": 40,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "FUENTE_ABS",
+          "name": "FUENTE_ABS",
+          "sqlType": "sqlTypeOther",
+          "length": 150,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Municipio",
+          "name": "MUN",
+          "sqlType": "sqlTypeOther",
+          "length": 40,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "NOM_PT",
+          "name": "NOM_PT",
+          "sqlType": "sqlTypeOther",
+          "length": 120,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "TIPO_PT",
+          "name": "TIPO_PT",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": "PTAP", "name": "Planta de tratamiento de agua potable" },
+            {
+              "code": "PTAR",
+              "name": "Planta de tratamiento de aguas residuales"
+            }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "TIPO_ACU",
+          "name": "TIPO_ACU",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "transfers": [
+        {
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Área Hidrográfica destino",
+          "name": "AH_destino",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Área Hidrográfica origen",
+          "name": "AH_origen",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Cuerpo de agua destino",
+          "name": "CA_destino",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Cuerpo de agua origen",
+          "name": "CA_origen",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeDouble",
+          "alias": "Caudal aproximado (L/s)",
+          "name": "Caudal",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Nombre de la infraestructura",
+          "name": "NOM_TRASV",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SubZona Hidrográfica destino",
+          "name": "SZH_destin",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SubZona Hidrográfica origen",
+          "name": "SZH_origen",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Zona Hidrográfica destino",
+          "name": "ZH_destino",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Zona Hidrográfica origen",
+          "name": "ZH_origen",
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "otherInfrastructure": [
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Nombre de la infraestructura",
+          "name": "NOM_INF",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Nombre del usuario",
+          "name": "NOM_USUARI",
+          "sqlType": "sqlTypeOther",
+          "length": 120,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "alias": "Tipo de infraestructura",
+          "name": "TIPO_INF",
+          "sqlType": "sqlTypeOther",
+          "length": 120,
+          "nullable": true,
+          "editable": true
+        }
+      ]
+    }
+  },
+  "POMCA": {
+    "spatialReference": 9377,
+    "minimumArea": 1.5,
+    "attributesNames": {
+      "floodingThreat": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "AME_INU_RA",
+          "alias": "AME_INU_RA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": 1, "name": "Alta" },
+            { "code": 3, "name": "Baja" },
+            { "code": 2, "name": "Media" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "COD_POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "rainfallThreat": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "AME_AT_RA_",
+          "alias": "AME_AT_RA_",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": 1, "name": "Alta" },
+            { "code": 3, "name": "Baja" },
+            { "code": 2, "name": "Media" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "COD_POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "landslidesThreat": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "AME_MM_RA",
+          "alias": "AME_MM_RA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": 1, "name": "Alta" },
+            { "code": 3, "name": "Baja" },
+            { "code": 2, "name": "Media" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "COD_POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "floodingRisk": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "RIESGO_RAN",
+          "alias": "RIESGO_RAN",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": 1, "name": "Alto" },
+            { "code": 3, "name": "Bajo" },
+            { "code": 2, "name": "Medio" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "COD_POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "rainfallRisk": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "RIESGO_RAN",
+          "alias": "RIESGO_RAN",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": 1, "name": "Alto" },
+            { "code": 3, "name": "Bajo" },
+            { "code": 2, "name": "Medio" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "COD_POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "landslidesRisk": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "RIESGO_RAN",
+          "alias": "RIESGO_RAN",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": 1, "name": "Alto" },
+            { "code": 3, "name": "Bajo" },
+            { "code": 2, "name": "Medio" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "COD_POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        }
+      ],
+      "environmentalZonification": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "CAT_ORD",
+          "alias": "Categoría de ordenamiento",
+          "sqlType": "sqlTypeOther",
+          "length": 90,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": "01", "name": "Conservación y protección" },
+            { "code": "02", "name": "Uso múltiple" },
+            { "code": "03", "name": "Áreas objeto de ajuste cartográfico" }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "Código del POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "SZO_US_M",
+          "alias": "Subzona de uso y manejo",
+          "sqlType": "sqlTypeOther",
+          "length": 90,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": "09", "name": "Areas agrícolas" },
+            { "code": "10", "name": "Areas agrosilvopastoriles" },
+            {
+              "code": "02",
+              "name": "Areas complementarias para la conservación"
+            }
+          ]
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "ZO_US_MA",
+          "alias": "Zona de uso y manejo",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true,
+          "codedValues": [
+            { "code": "02", "name": "Areas de Proteccion" },
+            { "code": "03", "name": "Áreas de Restauración" },
+            { "code": "07", "name": "Áreas objeto de ajuste cartográfico" }
+          ]
+        }
+      ],
+      "subbasin": [
+        {
+          "type": "esriFieldTypeString",
+          "name": "C_MIC_CUE",
+          "alias": "Código de la microcuenca",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "C_NV_SUB",
+          "alias": "Código de la subcuenca",
+          "sqlType": "sqlTypeOther",
+          "length": 20,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "COD_POMCA",
+          "alias": "Código del POMCA",
+          "sqlType": "sqlTypeOther",
+          "length": 10,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "N_MIC_CUE",
+          "alias": "Nombre de la microcuenca",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true
+        },
+        {
+          "type": "esriFieldTypeString",
+          "name": "N_NV_SUB",
+          "alias": "Nombre de la subcuenca",
+          "sqlType": "sqlTypeOther",
+          "length": 50,
+          "nullable": true,
+          "editable": true
+        }
+      ]
+    }
+  }
+}

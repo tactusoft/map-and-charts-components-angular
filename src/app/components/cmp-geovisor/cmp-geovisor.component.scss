@@ -1,0 +1,160 @@
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: relative; /* O utiliza otro valor de posicionamiento que sea adecuado */
+}
+
+calcite-label {
+  --calcite-label-margin-bottom: 0px;
+}
+
+.label-wrapper {
+  display: flex;
+  margin-inline: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--calcite-ui-border-1);
+  cursor: pointer;
+}
+
+#viewDiv {
+  flex: 1;
+  position: relative; /* O utiliza otro valor de posicionamiento que sea adecuado */
+}
+
+.calcite-action-bar {
+  position: absolute; /* Asegúrate de que el action bar tenga posicionamiento absoluto */
+  bottom: 0; /* Puedes ajustar esto según sea necesario */
+  left: 0; /* Ajusta el posicionamiento lateral si es necesario */
+}
+
+.calcite-panel-contents {
+  overflow-y: auto;
+  display: block;
+  height: 70vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+.swipe-label {
+  position: absolute;
+  color: white;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  bottom: 20px;
+}
+
+#swipeLabelLeft {
+  left: 20%;
+}
+
+#swipeLabelRight {
+  left: 70%;
+}
+
+.calcite-panel-custom {
+  height: 300px;
+}
+
+.calcite-avatar-custom {
+  border-radius: 0px;
+}
+
+#titleText {
+  font-size: 8pt;
+  // font-weight: 30;
+}
+
+#titleDiv {
+  padding: 0.8em;
+  border-radius: 4px;
+  background-color: rgba(150, 190, 84, 0.7);
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.calcite-logo-ppal {
+  //border-radius: 0px;
+  height: 45px;
+  width: 64px;
+  //padding: 8px;
+  margin-left : 0;
+}
+
+.calcite-logo-expanded{
+  width : 90px;
+  height : 58px;
+  margin-left : 36px;
+}
+
+.button-menu {
+  margin-left: 8px;
+}
+
+#measureDiv {
+  background: #fff;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.action-button {
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #d3d3d3;
+  color: #6e6e6e;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:hover,
+.action-button:focus {
+  background: #0079c1;
+  color: #e4e4e4;
+  cursor: pointer;
+}
+
+.active {
+  background: #0079c1;
+  color: #e4e4e4;
+}
+
+.container-table {
+  display: flex;
+  flex: 1;
+  width: 95%;
+  margin-left: 5.5rem;
+}
+
+.hidden-table {
+  display: none;
+}
+
+#appContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-download {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+

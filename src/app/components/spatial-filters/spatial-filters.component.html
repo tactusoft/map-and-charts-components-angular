@@ -1,0 +1,98 @@
+<calcite-block open>
+  <calcite-label>
+    Seleccione un tipo de filtro:
+    <calcite-select #spFilterComponent label="Seleccione una opción:" id="control-sp-filter"
+      (calciteSelectChange)="onChangeSpFilter($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let spFilter of spFilters" [value]="spFilter" [label]="spFilter.label"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label>
+    Seleccione la Capa a Intersectar:
+    <calcite-select #layerFilterComponent label="Seleccione una Capa:" id="control-layer-intersect"
+      (calciteSelectChange)="onChangeService($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let layer of layers" [value]="layer.id" [label]="layer.title"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+</calcite-block>
+
+<calcite-block *ngIf="spFilter.value != 1" open>
+  <calcite-label *ngIf="spFilter.value == 7">
+    Seleccione un Municipio:
+    <calcite-select *ngIf="spFilter.value == 7" label="Seleccione una opción:" id="control-mun-filter"
+      (calciteSelectChange)="onChangeFilterGeom($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let mun of municipios" [value]="mun"
+        [label]="mun.attributes.MpNombre"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label *ngIf="spFilter.value == 2">
+    Seleccione un Departamento:
+    <calcite-select *ngIf="spFilter.value == 2" label="Seleccione una opción:" id="control-dp-filter"
+      (calciteSelectChange)="onChangeFilterGeom($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let dpto of departamentos" [value]="dpto"
+        [label]="dpto.attributes.DeNombre"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label *ngIf="spFilter.value == 3">
+    Seleccione una CAR:
+    <calcite-select *ngIf="spFilter.value == 3" label="Seleccione una opción:" id="control-car-filter"
+      (calciteSelectChange)="onChangeFilterGeom($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let car of cars" [value]="car" [label]="car.attributes.nombre"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label *ngIf="spFilter.value == 4">
+    Seleccione una Región:
+    <calcite-select *ngIf="spFilter.value == 4" label="Seleccione una opción:" id="control-ecr-filter"
+      (calciteSelectChange)="onChangeFilterGeom($event)">
+      <calcite-option label="-- Seleccione --"></calcite-option>
+      <calcite-option *ngFor="let eco of ecoregiones" [value]="eco" [label]="eco.attributes.region"></calcite-option>
+    </calcite-select>
+  </calcite-label>
+  <calcite-label *ngIf="spFilter.value == 5">
+    Seleccione una geometría para filtrar en el mapa:
+    <calcite-action-bar [expanded]="false" [expandDisabled]="true" layout="horizontal" *ngIf="spFilter.value == 5">
+      <calcite-action icon="pin-tear" text="Filter by point" (click)="pointFilterClick()">
+      </calcite-action>
+      <calcite-action icon="line" text="Filter by line" (click)="lineFilterClick()">
+      </calcite-action>
+      <calcite-action icon="polygon-vertices" text="Filter by polygon" (click)="polyFilterClick()">
+      </calcite-action>
+    </calcite-action-bar>
+  </calcite-label>
+  <calcite-label scale="s" *ngIf="spFilter.value == 6">
+    SHAPEFILE: Cargue un archivo de extensión zip debe contener los
+    ficheros .shp, .shx, .dbf y .prj, el sistema de referencia debe ser
+    WGS84 (EPSG 4326).</calcite-label>
+  <input *ngIf="spFilter.value == 6" type="file" id="sfFileInput" style="display: none;"
+    (change)="onFileSelected($event)" accept=".zip" />
+  <div *ngIf="spFilter.value == 6" class="button-container">
+    <calcite-button appearance="solid" color="blue" (click)="triggerFileInput()" [loading]="loading"
+      [disabled]="disabledLoadButton" icon-end="upload">Cargar
+      Archivo</calcite-button>
+  </div>
+</calcite-block>
+
+<calcite-block open>
+  <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    <calcite-label
+      style="text-align: center; font-size: 18px !important; display: flex; align-items: center; height: 48px;">
+      <span>Se han filtrado <strong>{{count}}</strong> registros.</span>
+    </calcite-label>
+
+    <calcite-action *ngIf="count>0" icon="view-mixed" text="Mostrar filtrados" style=" height: 48px;"
+      (click)="showTable()">
+    </calcite-action>
+
+  </div>
+</calcite-block>
+
+<calcite-block open>
+  <div class="button-container">
+    <calcite-button (click)="onFilterClick()" [loading]="loading" [disabled]="!this.feature">Filtrar</calcite-button>
+    <calcite-button (click)="onClearClick()" [loading]="loading" kind="neutral">Limpiar</calcite-button>
+  </div>
+</calcite-block>

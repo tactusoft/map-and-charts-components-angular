@@ -1,0 +1,15 @@
+#mapContainer {
+    position: relative;
+    height: 80vh; /* Ajusta la altura del mapa según sea necesario */
+}
+
+#topicSelector {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+wecmp-geovisor-mapa {
+    height: 100%;
+}

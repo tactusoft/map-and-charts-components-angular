@@ -1,0 +1,90 @@
+<div #container>
+  <calcite-block open>
+    <calcite-label class="title-label">
+      Seleccione una Capa:
+      <calcite-select  [disabled]="loading" label="Seleccione una Capa:" id="control-service"
+        (calciteSelectChange)="onChangeService($event)">
+        <calcite-option value="" label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let layer of layers" [value]="layer" [label]="layer.title"></calcite-option>
+      </calcite-select>
+    </calcite-label>
+     <calcite-label class="title-label">
+      Seleccione un PORH:
+      <calcite-select  [disabled]="loading" label="Seleccione un Atributo:" id="control-field"
+      (calciteSelectChange)="onChangePorh($event)">
+        <calcite-option label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let porhItem of porhs" [value]="porhItem" [label]="porhItem.label"></calcite-option>
+      </calcite-select>
+    </calcite-label>
+    <calcite-label class="title-label">
+      Seleccione un valor:
+      <calcite-select  [disabled]="loading" label="Seleccione un Valor:" id="control-value"
+        (calciteSelectChange)="onChangeValue($event)">
+        <calcite-option value="" label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let val of values" [value]="val" [label]="val.label"></calcite-option>
+      </calcite-select>
+    </calcite-label>
+    <calcite-label class="title-label">
+      Seleccione una tabla:
+      <calcite-select #controlTable [disabled]="loading" label="Seleccione una tabla:" id="control-table"
+        (calciteSelectChange)="onChangeTable($event)">
+        <calcite-option value="" label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let table of tables" [value]="table" [label]="table.title"></calcite-option>
+      </calcite-select>
+    </calcite-label>
+
+  </calcite-block>
+
+  <calcite-block open *ngIf="subTable.id!=-1 && layer && porh && value">
+    <calcite-label class="title-label" style="font-weight: 900;">
+      Filtros de monitoreo:
+      <br>
+    </calcite-label>
+    <calcite-label class="title-label">
+      <p *ngIf="subTable.id!=7">Seleccione un Uso potencial:</p>
+      <p *ngIf="subTable.id==7">Seleccione un Indice de calidad:</p>
+      <calcite-select [disabled]="loading" label="Seleccione un uso:" id="control-uso"
+        (calciteSelectChange)="onChangeUso($event)">
+        <calcite-option value="" label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let usoItem of usos" [value]="usoItem" [label]="usoItem.label"></calcite-option>
+      </calcite-select>
+    </calcite-label>
+    <calcite-label class="title-label" *ngIf="subTable && subTable.id!=7">
+      Seleccione un Parametro:
+      <calcite-select [disabled]="loading" label="Seleccione un parametro:" id="control-param"
+        (calciteSelectChange)="onChangeParametro($event)">
+        <calcite-option value="" label="-- Seleccione --"></calcite-option>
+        <calcite-option *ngFor="let parametroItem of parametros" [value]="parametroItem"
+          [label]="parametroItem.label"></calcite-option>
+      </calcite-select>
+    </calcite-label>
+  </calcite-block>
+
+  <calcite-block open>
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+      <calcite-label
+        style="text-align: center; font-size: 18px !important; display: flex; align-items: center; height: 48px;">
+        <span>Se han encontrado <strong>{{count}}</strong> registros.</span>
+      </calcite-label>
+
+      <calcite-action *ngIf="count>0" icon="view-mixed" text="Mostrar filtrados" style=" height: 48px;"
+        (click)="showTable()">
+      </calcite-action>
+      <calcite-action *ngIf="count>0" icon="graph-time-series" text="Mostrar filtrados" style=" height: 48px;"
+        (click)="showChart()">
+      </calcite-action>
+
+    </div>
+  </calcite-block>
+
+  <calcite-block open>
+    <div class="button-container">
+      <calcite-button (click)="searchItems()" [disabled]="subTable.id==-1 && !layer && !porh && !value" [loading]="loading">Consultar</calcite-button>
+      <calcite-button (click)="clearAll(true)" [loading]="loading" kind="neutral">Limpiar</calcite-button>
+    </div>
+  </calcite-block>
+
+  <arcgis-charts-line-chart #lineChart>
+  </arcgis-charts-line-chart>
+
+</div>
