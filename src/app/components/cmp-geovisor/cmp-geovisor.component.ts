@@ -1,4 +1,3 @@
-//@ts-nocheck
 import {
   AfterViewInit,
   Component,
@@ -33,7 +32,6 @@ import Search from '@arcgis/core/widgets/Search';
 import ScaleBar from '@arcgis/core/widgets/ScaleBar';
 import Zoom from '@arcgis/core/widgets/Zoom';
 import Expand from '@arcgis/core/widgets/Expand';
-import Measurement from '@arcgis/core/widgets/Measurement.js';
 import DistanceMeasurement2D from '@arcgis/core/widgets/DistanceMeasurement2D';
 import AreaMeasurement2D from '@arcgis/core/widgets/AreaMeasurement2D';
 import Handles from '@arcgis/core/core/Handles';
@@ -131,6 +129,9 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
 
   private activeWidget: any;
   public mapReady = false;
+
+  private configSubscription: any;
+  private token: string = '';
 
   menuItems = {
     items: [
