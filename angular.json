@@ -20,6 +20,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/environments",
+                "output": "/environments"
               }
             ],
             "styles": ["src/styles.css"],
@@ -86,6 +91,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/environments",
+                "output": "/environments"
               }
             ],
             "styles": ["src/styles.css"]
