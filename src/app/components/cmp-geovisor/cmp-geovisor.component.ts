@@ -435,6 +435,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
       if (
         this.map.initialViewProperties &&
         this.map.initialViewProperties.viewpoint &&
+        this.map.initialViewProperties.viewpoint.targetGeometry &&
         this.map.initialViewProperties.viewpoint.targetGeometry.type ===
         'extent'
       ) {
@@ -491,7 +492,8 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   /** Metodo para resaltar la feature de la tabla en la capa y viceversa */
   addHighlight(feature: any, highlightHandles: any) {
     if (this.sharedMapService.featureTable.layerView && feature) {
-      highlightHandles.add(this.sharedMapService.featureTable.layerView.highlight(feature), feature.getObjectId());
+      const layerView = this.sharedMapService.featureTable.layerView as any;
+      highlightHandles.add(layerView.highlight(feature), feature.getObjectId());
     }
   }
 
@@ -701,7 +703,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   getLayerByTitle(title: string) {
-    return this.sharedMapService.view.map.allLayers.items.filter(
+    return this.sharedMapService.view?.map?.allLayers?.toArray().filter(
       (layer: any) => layer.title === title
     )[0];
   }
@@ -983,7 +985,7 @@ export class CmpGeovisorComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   private addToGroupLayer(layer: any, groupTitle: string): void {
-    const existingGroupLayer = this.sharedMapService.view?.map.allLayers.find(
+    const existingGroupLayer = this.sharedMapService.view?.map?.allLayers?.find(
       (l: any) => l instanceof GroupLayer && l.title === groupTitle
     ) as GroupLayer;
     if (existingGroupLayer) {
